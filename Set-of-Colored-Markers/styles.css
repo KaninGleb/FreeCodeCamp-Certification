@@ -13,14 +13,14 @@ h1 {
     margin: 10px auto;
 }
 
-.one {
-    background-color: rgb(0, 0, 0);
+.red {
+    background: linear-gradient(90deg) rgb(255, 0, 0);
 }
 
-.two {
-    background-color: rgb(0, 0, 0);
+.green {
+    background-color: #007F00;
 }
 
-.three {
-    background-color: rgb(0, 0, 0);
+.blue {
+    background-color: hsl(240, 100%, 50%);
 }
