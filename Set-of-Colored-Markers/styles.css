@@ -14,13 +14,13 @@ h1 {
 }
 
 .red {
-    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
 }
 
 .green {
-    background: #007F00;
+    background: linear-gradient(#55680D, #71F53E, #116C31);
 }
 
 .blue {
-    background-color: hsl(240, 100%, 50%);
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
 }
