@@ -2,10 +2,18 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-function padRow() {
-
+function padRow(name) {
+    return name;
 }
-const call = padRow();
+
+function addTwoNumbers(sum1, sum2) {
+    return sum1 + sum2;
+}
+
+const sum = addTwoNumbers(5, 10);
+console.log(sum)
+
+const call = padRow("CamperChan");
 console.log(call);
 
 
