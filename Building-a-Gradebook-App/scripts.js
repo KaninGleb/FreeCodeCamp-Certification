@@ -71,22 +71,27 @@ function hasPassingGrade(score) {
 const attemptCounter = 10;
 
 function generateAndDisplayGrades() {
+    const scores = [];                                        // Array creation
     for (let i = 0; i < attemptCounter; i++) {
         const score = Math.ceil(Math.random() * 100);
-        const grade = getGrade(score); // function call - getGrade
-        const isPassing = hasPassingGrade(score); // function call - hasPassingGrade
+        scores.push(score);                                   // Pushing the array
+
+        const grade = getGrade(score);                        // Function call - getGrade
+        const isPassing = hasPassingGrade(score);             // Function call - hasPassingGrade
 
         console.log(`Score${" " + (i + 1)}: ${score} ${"\n"}Grade${" " + (i + 1)}: ${grade} ${"\n"}Passing grade: ${isPassing  ? "✅ Yes" : "❌ No"}${"\n"}`);
     }
+    return scores;                                            // Array return
 }
-generateAndDisplayGrades();
+
+const scoresArray = generateAndDisplayGrades();               // Saving an array of scores
 
 
 function studentMsg(totalScores, studentScore) {
     const average = getAverage(totalScores);
     const studentGrade = getGrade(studentScore);
     const passStatus = hasPassingGrade(studentScore) ? "passed" : "failed";
-    return `Class average: ${average}. Your grade: ${studentGrade}. You ${passStatus} the course.`;
+    return (`Class average: ${average}. Your grade: ${studentGrade}. You ${passStatus} the course.`);
 }
 
-console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37)); // My student has 37 points
+console.log(studentMsg(scoresArray, 37));                     // My student has 37 points
