@@ -14,7 +14,7 @@
 
 function getGrade(score) {
     // // If...else:
-    // let grade;
+    // // let grade;
     // if (score < 59) {
     //     grade = "F";
     // } else if (score >= 60 && score <= 69) {
@@ -32,7 +32,7 @@ function getGrade(score) {
 
 
     // // Switch...case
-    // let grade;
+    // // let grade;
     // switch (true) {
     //     case score < 59:
     //         grade = "F";
@@ -64,14 +64,20 @@ function getGrade(score) {
         "A++";
 }
 
+function hasPassingGrade(score) {
+    let grade = getGrade(score);
+    return grade !== "F";
+}
+
 // ✅Checking
 const attemptCounter = 10;
 
 function generateAndDisplayGrades() {
     for (let i = 0; i < attemptCounter; i++) {
-        const score = Math.ceil(Math.random() * 100);
-        const grade = getGrade(score);
-        console.log(`Score${" " + (i + 1)}: ${score} ${"\n"}Grade${" " + (i + 1)}: ${grade} ${"\n"}`);
+        const score = Math.ceil(Math.random() * 100);    
+        const grade = getGrade(score);                   // function call - getGrade
+        const isPassing  = hasPassingGrade(score);       // function call - hasPassingGrade
+        console.log(`Score${" " + (i + 1)}: ${score} ${"\n"}Grade${" " + (i + 1)}: ${grade} ${"\n"}Passing grade: ${isPassing  ? "✅ Yes" : "❌ No"}${"\n"}`);
     }
 }
 generateAndDisplayGrades();
