@@ -67,20 +67,6 @@ function hasPassingGrade(score) {
 }
 
 
-function studentMsg(totalScores, studentScore) {
-    const average = getAverage(totalScores);
-    const studentGrade = getGrade(studentScore);
-    const passStatus = hasPassingGrade(studentScore) ? "passed" : "failed";
-    return `Class average: ${average}. Your grade: ${studentGrade}. You ${passStatus} the course.`;
-}
-
-
-
-
-
-
-
-
 // ✅Checking
 const attemptCounter = 10;
 
@@ -92,6 +78,15 @@ function generateAndDisplayGrades() {
 
         console.log(`Score${" " + (i + 1)}: ${score} ${"\n"}Grade${" " + (i + 1)}: ${grade} ${"\n"}Passing grade: ${isPassing  ? "✅ Yes" : "❌ No"}${"\n"}`);
     }
-    console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
 }
 generateAndDisplayGrades();
+
+
+function studentMsg(totalScores, studentScore) {
+    const average = getAverage(totalScores);
+    const studentGrade = getGrade(studentScore);
+    const passStatus = hasPassingGrade(studentScore) ? "passed" : "failed";
+    return `Class average: ${average}. Your grade: ${studentGrade}. You ${passStatus} the course.`;
+}
+
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37)); // My student has 37 points
