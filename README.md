@@ -1,2 +1,2 @@
 ### Java Script
-<a href="https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures">Algorithms and Data Structures</a>
+[Algorithms and Data Structures RPS](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures-RPS)
