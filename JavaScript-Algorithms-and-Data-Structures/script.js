@@ -48,8 +48,8 @@ function showResults(userOption) {
     resetGameBtn.style.display = "block";
     optionsContainer.style.display = "none";
   }
-
 };
+
 function resetGame() {
   playerScore = 0;
   computerScore = 0;
