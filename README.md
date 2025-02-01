@@ -1,7 +1,6 @@
 # :tada: FreeCodeCamp Projects
 
 Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earning certifications! Here you'll find various projects showcasing my skills in HTML, CSS, and JavaScript.
-
 ## :link: Project Links:
 <!-- HTML & CSS -->
 <details open>
@@ -11,16 +10,8 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    
 1. **Cat Photo App**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
-
 2. **Cafe Menu**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/02-Cafe-Menu)
-
-3. **Set of Colored Markers**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/03-Set-of-Colored-Markers)
-
-4. **Building a Registration Form**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Building-a-Registration-Form)
-
 </details>
 
 <!-- JavaScript -->
