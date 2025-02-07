@@ -6,7 +6,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- HTML & CSS -->
 <details open>
 <summary>
-   <h2>:globe_with_meridians: HTML & CSS Projects</h2>
+   <h3>:globe_with_meridians: HTML & CSS Projects</h3>
 </summary>
    
 1. **Cat Photo App**  
@@ -25,7 +25,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 <!-- JavaScript -->
 <details open>
-<summary style="font-size: 18px; font-width:700">:computer: JavaScript Projects</summary>
+<summary>
+   <h3>:computer: JavaScript Projects</h3>
+</summary>
 
 1. **Algorithms and Data Structures: Rock, Paper, Scissors Game**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures-RPS)
@@ -43,7 +45,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 <!-- Data Visualization -->
 <details open>
-<summary style="font-size: 50px; font-width:700">:bar_chart: 03 - Data Visualization Projects</summary>
+<summary>
+   <h3>:bar_chart: 03 - Data Visualization Projects</h3>
+</summary>
 1. **Visualize Data with a Bar Chart**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
 
