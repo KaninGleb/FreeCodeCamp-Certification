@@ -5,7 +5,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 ## :link: Project Links:
 <!-- HTML & CSS -->
 <details open>
-<summary style="font-size: 50px; font-width:700">:globe_with_meridians: HTML & CSS Projectss</summary>
+<summary><h2 style="font-size: 50px; font-weight: 700;">:globe_with_meridians: HTML & CSS Projects</h2></summary>
    
 1. **Cat Photo App**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
@@ -50,8 +50,3 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- Description -->
 ### :books: Description
 This repository showcases my learning journey through FreeCodeCamp, featuring a variety of projects that highlight different facets of web development. Each project emphasizes essential skills, from crafting responsive layouts with HTML and CSS to implementing dynamic interactivity with JavaScript. Dive in to explore how I've developed my abilities and gained practical experience in creating functional and visually appealing web applications.
-
-summary {
-    font-size: 50px;
-    font-weight: 700;
-}
