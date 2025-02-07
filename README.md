@@ -17,7 +17,8 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 4. **Building a Registration Form**  
    [View Project](https://link-to-registration-form)
 
-### :computer: JavaScript Projects
+<summary>:computer: JavaScript Projects</summary>
+
 1. **Algorithms and Data Structures: Rock, Paper, Scissors Game**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures-RPS)
 
@@ -29,6 +30,8 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 4. **Building a Gradebook App**  
    [View Project](https://link-to-gradebook-app)
+   
+</details>
 
 ### :bar_chart: 03 - Data Visualization Projects
 1. **Visualize Data with a Bar Chart**  
