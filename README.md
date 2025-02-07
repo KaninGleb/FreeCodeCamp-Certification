@@ -1,34 +1,35 @@
-# FreeCodeCamp Projects
+# #1F389 FreeCodeCamp Projects
 
-This repository is dedicated to solving tasks on FreeCodeCamp and obtaining certifications.
+Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earning certifications! Here you'll find various projects showcasing my skills in HTML, CSS, and JavaScript.
 
-## Links:
+## #1F517 Project Links:
 
-### HTML & CSS Projects
-1) **Cat-Photo-App**  
-   [Cat-Photo-App](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
+### #1F30D HTML & CSS Projects
+1. **Cat Photo App**  
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
 
-2) **Cafe-Menu**  
-   [Cafe-Menu](https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/02-Cafe-Menu/)
+2. **Cafe Menu**  
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/02-Cafe-Menu/)
 
-3) **Set-of-Colored-Markers**  
-   [Set-of-Colored-Markers](https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/03-Set-of-Colored-Markers/)
+3. **Set of Colored Markers**  
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/03-Set-of-Colored-Markers)
 
-4) **Building-a-Registration-Form**  
-   [Building Registration Form](https://link-to-registration-form)
+4. **Building a Registration Form**  
+   [View Project](https://link-to-registration-form)
 
-### JavaScript Projects
+### #1F4BB JavaScript Projects
 1. **Algorithms and Data Structures: Rock, Paper, Scissors Game**  
-   [Play RPS](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures-RPS)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures-RPS)
 
 2. **Debugging by Building a Random Background Color Changer**  
-   [Build Color Changer](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Debugging-by-Building-a-Random-Background-Color-Changer)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Debugging-by-Building-a-Random-Background-Color-Changer)
 
 3. **Building a Pyramid Generator**  
-   [Building a Pyramid Generator](https://link-to-pyramid-generator)
+   [View Project](https://link-to-pyramid-generator)
 
 4. **Building a Gradebook App**  
-   [Building a Gradebook App](https://link-to-gradebook-app)
+   [View Project](https://link-to-gradebook-app)
+   
 
 <!--
 Links:
