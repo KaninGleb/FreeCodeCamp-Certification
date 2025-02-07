@@ -17,6 +17,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 4. **Building a Registration Form**  
    [View Project](https://link-to-registration-form)
 
+<details>
 <summary>:computer: JavaScript Projects</summary>
 
 1. **Algorithms and Data Structures: Rock, Paper, Scissors Game**  
