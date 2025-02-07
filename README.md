@@ -34,20 +34,5 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 1. **Visualize Data with a Bar Chart**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
 
-<!--
-Links:
-1) Cat-Photo-App
-https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/01-Cat-Photo-App/Index.html
-2) Cafe-Menu
-https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/02-Cafe-Menu/
-3) Set-of-Colored-Markers 
-https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/03-Set-of-Colored-Markers/
-
-### JavaScript Projects
-
-#### 1. Algorithms and Data Structures: Rock, Paper, Scissors Game
-<a href="https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures-RPS" style="font-size: 14px; text-decoration: none; color: blue;">Play RPS</a>
-
-#### 2. Debugging by Building a Random Background Color Changer
-<a href="https://kaningleb.github.io/FreeCodeCamp-JavaScript/Debugging-by-Building-a-Random-Background-Color-Changer" style="font-size: 14px; text-decoration: none; color: blue;">Build Color Changer</a>
--->
+### :books: Description
+This repository showcases my learning journey through FreeCodeCamp, featuring a variety of projects that highlight different facets of web development. Each project emphasizes essential skills, from crafting responsive layouts with HTML and CSS to implementing dynamic interactivity with JavaScript. Dive in to explore how I've developed my abilities and gained practical experience in creating functional and visually appealing web applications.
