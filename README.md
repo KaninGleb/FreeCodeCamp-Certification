@@ -30,7 +30,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 4. **Building a Gradebook App**  
    [View Project](https://link-to-gradebook-app)
 
-   ### :bar_chart: 03 - Data Visualization Projects
+### :bar_chart: 03 - Data Visualization Projects
 1. **Visualize Data with a Bar Chart**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
 
