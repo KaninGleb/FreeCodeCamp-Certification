@@ -1,10 +1,10 @@
-# #1F389 FreeCodeCamp Projects
+# :tada: FreeCodeCamp Projects
 
 Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earning certifications! Here you'll find various projects showcasing my skills in HTML, CSS, and JavaScript.
 
-## #1F517 Project Links:
+## :link: Project Links:
 
-### #1F30D HTML & CSS Projects
+### :globe_with_meridians: HTML & CSS Projects
 1. **Cat Photo App**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
 
@@ -17,7 +17,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 4. **Building a Registration Form**  
    [View Project](https://link-to-registration-form)
 
-### #1F4BB JavaScript Projects
+### :computer: JavaScript Projects
 1. **Algorithms and Data Structures: Rock, Paper, Scissors Game**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Algorithms-and-Data-Structures-RPS)
 
