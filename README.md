@@ -30,16 +30,16 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 </summary>
 
 1. **Algorithms and Data Structures: Rock, Paper, Scissors Game**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Part-1/01-Building-a-Pyramid-Generator)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/Part-1/01-Building-a-Pyramid-Generator)
 
 2. **Debugging by Building a Random Background Color Changer**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Part-1/02-Building-a-Gradebook-App)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/Part-1/02-Building-a-Gradebook-App)
 
 4. **Building a Pyramid Generator**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Part-1/04-Debugging-by-Building-a-Random-Background-Color-Changer)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/Part-1/04-Debugging-by-Building-a-Random-Background-Color-Changer)
 
 6. **Building a Gradebook App**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
    
 </details>
 
@@ -50,7 +50,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 </summary>
    
 1. **Visualize Data with a Bar Chart**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-JavaScript/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
 
 </details>
 
