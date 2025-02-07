@@ -6,7 +6,7 @@ This repository is dedicated to solving tasks on FreeCodeCamp and obtaining cert
 
 ### HTML & CSS Projects
 1) **Cat-Photo-App**  
-   [Cat-Photo-App](https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/01-Cat-Photo-App/Index.html)
+   [Cat-Photo-App](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
 
 2) **Cafe-Menu**  
    [Cafe-Menu](https://kaningleb.github.io/FreeCodeCamp-HTML-CSS/02-Cafe-Menu/)
@@ -29,9 +29,6 @@ This repository is dedicated to solving tasks on FreeCodeCamp and obtaining cert
 
 4. **Building a Gradebook App**  
    [Building a Gradebook App](https://link-to-gradebook-app)
-
-## Link to the new repository:
-[FreeCodeCamp-Certification](https://kaningleb.github.io/FreeCodeCamp-Certification/)
 
 <!--
 Links:
