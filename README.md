@@ -46,7 +46,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- Data Visualization -->
 <details open>
 <summary>
-   <h3>:bar_chart: 03 - Data Visualization Projects</h3>
+   <h3>:bar_chart: Data Visualization Projects</h3>
 </summary>
    
 1. **Visualize Data with a Bar Chart**  
