@@ -14,8 +14,8 @@ const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.t
 d3.json("https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json").then(data => {
     data.forEach(d => {
         d.Seconds = +d.Seconds;
-        d.Year = new Date(d.Year, 0); // Convert year to Date object
-        d.Time = d3.timeParse("%M:%S")(d.Time); // Convert time to Date object
+        d.Year = new Date(d.Year, 0);
+        d.Time = d3.timeParse("%M:%S")(d.Time);
     });
 
     xScale.domain(d3.extent(data, d => d.Year));
