@@ -49,9 +49,12 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <h3>:bar_chart: Data Visualization Projects</h3>
 </summary>
    
-1. **Visualize Data with a Bar Chart**  
+1. **Visualize Data with a Bar Chart** - _Certification project_ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
 
+2. **Visualize Data with a Scatterplot Graph** - _Certification project_ <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/02-Visualize-Data-with-a-Scatterplot-Graph)
+   
 </details>
 
 <!-- Description -->
