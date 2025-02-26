@@ -10,19 +10,19 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 </summary>
    
 1. **Cat Photo App**  
-   <a href="https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App" target="_blank">View Project</a>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
 
 2. **Cafe Menu**  
-   <a href="https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/02-Cafe-Menu" target="_blank">View Project</a>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/02-Cafe-Menu)
 
 3. **Set of Colored Markers**  
-   <a href="https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/03-Set-of-Colored-Markers" target="_blank">View Project</a>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/03-Set-of-Colored-Markers)
 
 4. **Building a Registration Form**  
-   <a href="https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Building-a-Registration-Form" target="_blank">View Project</a>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Building-a-Registration-Form)
 
-5. **Survey Form** - _Certification project_  
-   <a href="https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/05-Survey-form-Certification-Project/" target="_blank">View Project</a>
+5. **Survey Form** - _Certification project_ <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/05-Survey-form-Certification-Project/)
 
 </details>
 
