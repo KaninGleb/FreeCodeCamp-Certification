@@ -5,52 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
     <link rel="stylesheet" href="styles.css"/>
-
 </head>
+
 <body>
-<form id="survey-form">
-    <h1 id="title">Survey</h1>
-    <p id="description">Please fill out the form below:</p>
-    <label id="name-label" for="name">Name:</label>
-    <input id="name" type="text" placeholder="Enter your name" required>
+    <form id="survey-form">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out the form below:</p>
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
 
-    <label id="email-label" for="email">Email:</label>
-    <input id="email" type="email" placeholder="Enter your email" required>
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
 
-    <label id="number-label" for="number">Age:</label>
-    <input id="number" type="number" min="1" max="120" placeholder="Enter your age" required>
+        <label id="number-label" for="number">Age:</label>
+        <input id="number" type="number" min="1" max="120" placeholder="Enter your age" required>
 
-    <label for="dropdown">Choose an option:</label>
-    <select id="dropdown" required>
-        <option value="">--Please choose--</option>
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-    </select>
+        <label for="dropdown">Choose an option:</label>
+        <select id="dropdown" required>
+            <option value="">--Please choose--</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
 
-    <fieldset>
-        <legend>Choose one option:</legend>
-        <label>
-            <input type="radio" name="radio-group" value="option1" required> Option 1
-        </label>
-        <label>
-            <input type="radio" name="radio-group" value="option2"> Option 2
-        </label>
-    </fieldset>
+        <fieldset>
+            <legend>Choose one option:</legend>
+            <label>
+                <input type="radio" name="radio-group" value="option1" required> Option 1
+            </label>
+            <label>
+                <input type="radio" name="radio-group" value="option2"> Option 2
+            </label>
+        </fieldset>
 
-    <fieldset>
-        <legend>Choose multiple options:</legend>
-        <label>
-            <input type="checkbox" value="checkbox1"> Checkbox 1
-        </label>
-        <label>
-            <input type="checkbox" value="checkbox2"> Checkbox 2
-        </label>
-    </fieldset>
+        <fieldset>
+            <legend>Choose multiple options:</legend>
+            <label>
+                <input type="checkbox" value="checkbox1"> Checkbox 1
+            </label>
+            <label>
+                <input type="checkbox" value="checkbox2"> Checkbox 2
+            </label>
+        </fieldset>
 
-    <label for="comments">Additional comments:</label>
-    <textarea id="comments" placeholder="Enter your comments"></textarea>
+        <label for="comments">Additional comments:</label>
+        <textarea id="comments" placeholder="Enter your comments"></textarea>
 
-    <button id="submit" type="submit">Submit</button>
-</form>
+        <button id="submit" type="submit">Submit</button>
+    </form>
 </body>
+
 </html>
