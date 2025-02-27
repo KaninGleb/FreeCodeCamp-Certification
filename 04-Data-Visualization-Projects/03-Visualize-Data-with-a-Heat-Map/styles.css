@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+.cell {
+    stroke: #fff;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    background: lightsteelblue;
+    border: 1px solid #333;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+#legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
