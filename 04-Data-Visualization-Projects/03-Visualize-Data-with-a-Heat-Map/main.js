@@ -58,7 +58,7 @@ fetch(url)
                     .attr("data-year", d.year)
                     .html(`Year: ${d.year}<br>Month: ${d3.timeFormat("%B")(new Date(0, d.month - 1))}<br>Temp: ${Math.round((baseTemperature + d.variance) * 10) / 10}°C`)
 
-                    .style("left", (event.pageX + 5) + "px")
+                    .style("left", (event.pageX + 15) + "px")
                     .style("top", (event.pageY - 28) + "px");
             })
             .on("mouseout", () => {
@@ -95,4 +95,4 @@ fetch(url)
             .attr("width", legendWidth / 5)
             .attr("height", legendHeight)
             .attr("fill", d => colorScale(baseTemperature + d * (d3.max(dataset, d => d.variance) - d3.min(dataset, d => d.variance))));
-    });
+    })
