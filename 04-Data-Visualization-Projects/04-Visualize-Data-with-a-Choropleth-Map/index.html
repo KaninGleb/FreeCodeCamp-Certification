@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choropleth Map</title>
+    <title>Visualize Data with a Choropleth Map</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<h1 id="title">US Educational Attainment by County</h1>
-<p id="description">This map shows the percentage of adults with a college degree in each county.</p>
-<svg id="map" width="960" height="600"></svg>
-<div id="legend"></div>
-<div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<body>
+<h1 id="title">United States Educational Attainment</h1>
+<h3 id="description">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</h3>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/topojson@3"></script>
 <script src="main.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
