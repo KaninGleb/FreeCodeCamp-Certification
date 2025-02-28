@@ -57,6 +57,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 2. **Visualize Data with a Scatterplot Graph** - _Certification project_ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/02-Visualize-Data-with-a-Scatterplot-Graph)
+
+3. **Visualize-Data-with-a-Heat-Map** - _Certification project_ <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/03-Visualize-Data-with-a-Heat-Map)
    
 </details>
 
