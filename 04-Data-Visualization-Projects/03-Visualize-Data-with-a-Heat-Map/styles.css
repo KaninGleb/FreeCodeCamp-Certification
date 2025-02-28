@@ -1,13 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
+    margin: 0;
 }
 
 #container {
     text-align: center;
 }
 
-.cell {
-    stroke: #fff;
+h1 {
+    margin: 0;
+    padding: 30px;
+    background-color: #141459;
+    color: white;
 }
 
 .tooltip {

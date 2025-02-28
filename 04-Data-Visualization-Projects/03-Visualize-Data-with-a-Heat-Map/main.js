@@ -7,8 +7,8 @@ fetch(url)
         const baseTemperature = data.baseTemperature;
 
         const margin = {top: 50, right: 30, bottom: 50, left: 60};
-        const width = 800 - margin.left - margin.right;
-        const height = 400 - margin.top - margin.bottom;
+        const width = 1500 - margin.left - margin.right;
+        const height = 700 - margin.top - margin.bottom;
 
         const svg = d3.select("#heatmap")
             .append("g")
@@ -39,31 +39,42 @@ fetch(url)
             .attr("id", "y-axis")
             .call(d3.axisLeft(yScale).tickFormat(d => d3.timeFormat("%B")(new Date(0, d - 1))));
 
-        svg.selectAll(".cell")
-            .data(dataset)
-            .enter()
-            .append("rect")
-            .attr("class", "cell")
-            .attr("data-month", d => d.month - 1)
-            .attr("data-year", d => d.year)
-            .attr("data-temp", d => baseTemperature + d.variance)
-            .attr("x", d => xScale(d.year))
-            .attr("y", d => yScale(d.month))
-            .attr("width", xScale.bandwidth())
-            .attr("height", yScale.bandwidth())
-            .attr("fill", d => colorScale(baseTemperature + d.variance))
-            .on("mouseover", function (event, d) {
-                const tooltip = d3.select("#tooltip")
-                    .style("opacity", 1)
-                    .attr("data-year", d.year)
-                    .html(`Year: ${d.year}<br>Month: ${d3.timeFormat("%B")(new Date(0, d.month - 1))}<br>Temp: ${Math.round((baseTemperature + d.variance) * 10) / 10}°C`)
+            svg.selectAll(".cell")
+                .data(dataset)
+                .enter()
+                .append("rect")
+                .attr("class", "cell")
+                .attr("data-month", d => d.month - 1)
+                .attr("data-year", d => d.year)
+                .attr("data-temp", d => baseTemperature + d.variance)
+                .attr("x", d => xScale(d.year))
+                .attr("y", d => yScale(d.month))
+                .attr("width", xScale.bandwidth())
+                .attr("height", yScale.bandwidth())
+                .attr("fill", d => colorScale(baseTemperature + d.variance))
+                .on("mouseover", function (event, d) {
+                        d3.select(this)
+                            .style("stroke", "black")
+                            .style("stroke-width", "2px")
+                            .attr("rx", 2)
+                            .attr("ry", 2);
 
-                    .style("left", (event.pageX + 15) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            })
-            .on("mouseout", () => {
-                d3.select("#tooltip").style("opacity", 0);
-            });
+                        const tooltip = d3.select("#tooltip")
+                            .style("opacity", 1)
+                            .attr("data-year", d.year)
+                            .html(`Year: ${d.year}<br>Month: ${d3.timeFormat("%B")(new Date(0, d.month - 1))}<br>Temp: ${Math.round((baseTemperature + d.variance) * 10) / 10}°C`)
+                            .style("left", (event.pageX + 15) + "px")
+                            .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", function () {
+                        d3.select(this)
+                            .style("stroke", "none")
+                            .style("stroke-width", "unset")
+                            .attr("rx", 0) // Радиус закругления по оси X
+                            .attr("ry", 0) // Радиус закругления по оси Y
+
+                        d3.select("#tooltip").style("opacity", 0);
+                });
 
         // Legend
         const legend = d3.select("#legend");
