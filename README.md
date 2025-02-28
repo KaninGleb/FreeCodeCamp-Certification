@@ -60,6 +60,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 3. **Visualize Data with a Heat Map** - _Certification project_ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/03-Visualize-Data-with-a-Heat-Map)
+
+4. **Visualize Data with a Choropleth Map** - _Certification project_ <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/04-Visualize-Data-with-a-Choropleth-Map)
    
 </details>
 
