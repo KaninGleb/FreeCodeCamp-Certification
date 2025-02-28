@@ -102,5 +102,4 @@
         .tickValues(color.domain())) // Values to display on the axis
         .select('.domain') // Select the axis line
         .remove(); // Remove the axis line
-
 })();
