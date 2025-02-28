@@ -10,9 +10,9 @@ async function main() {
 
     // Creating color scheme
     const colors = d3.scaleOrdinal(d3.schemeSet2);
-
-    //   selecting our treemap svg
-    const svg = d3.select("svg#treemap")
+    
+    //   Selecting treemap svg
+    const svg = d3.select("svg#treemap");
 
     //   Creating a tooltip
     const tooltip = d3.select("body").append("div")
@@ -20,7 +20,7 @@ async function main() {
         .attr("class", "tooltip")
         .attr("id", "tooltip");
 
-    //   creating our treemap root from the data
+    //   Creating our treemap root from the data
     const root = d3.hierarchy(movies).sum(d => d.value);
 
     //   Accessing svg height and weight
@@ -60,6 +60,8 @@ async function main() {
             tooltip.html("Name : " + d.data.name + "</br>" +
                 "Category : " + d.data.category + "</br>" +
                 "Value : " + d.data.value);
+        })
+        .on("mousemove", (event) => {
             tooltip.style("left", (event.pageX + 10) + "px");
             tooltip.style("top", (event.pageY - 28) + "px");
         })

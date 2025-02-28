@@ -38,6 +38,7 @@ body {
 .tile-text {
     fill: white;
     font-size: 13px;
+    pointer-events: none;
 }
 
 .footer {
