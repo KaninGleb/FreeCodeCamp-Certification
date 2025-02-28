@@ -1,45 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
     text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(90deg, rgba(7,21,31,1) 22%, rgba(10,23,33,1) 48%, rgba(7,22,33,1) 75%);
 }
 
-#title {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-#description {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-.tooltip {
-    position: absolute;
-    text-align: center;
-    width: 150px;
-    padding: 8px;
-    font: 12px sans-serif;
-    background: lightsteelblue;
-    border: 0px;
-    border-radius: 8px;
-    pointer-events: none;
-    opacity: 0;
-}
-
-.county {
-    stroke: #fff;
-    stroke-width: 0.5;
-}
-
-#legend {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-#legend div {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 2px;
+.county:hover {
+    cursor: pointer;
+    fill: rgb(48, 90, 124);
 }
