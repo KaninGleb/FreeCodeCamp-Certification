@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.county {
+    stroke: #fff;
+    stroke-width: 0.5;
+}
+
+#legend {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#legend div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
