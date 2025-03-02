@@ -63,6 +63,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 4. **Visualize Data with a Choropleth Map** - _Certification project_ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/04-Visualize-Data-with-a-Choropleth-Map)
+
+5. **Visualize Data with a Treemap Diagram** - _Certification project_ <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/05-Visualize-Data-with-a-Treemap-Diagram)
    
 </details>
 
