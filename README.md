@@ -58,7 +58,8 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    </summary>
    
    ![Visualization Certificate](./assets/certificates/data-visualization/data-visualization.png)  
-   ### 📥 Download the Visualization Certificate - [Click here to download](./assets/certificates/data-visualization/data-visualization.pdf)
+   ### 📥 Download the Visualization Certificate - [Click here to download](./assets/certificates/data-visualization/data-visualization.pdf) {:download="data-visualization.pdf"}
+   <a href="./assets/certificates/data-visualization/data-visualization.pdf" download>Click here to downloa</a>
    <br/>
 </details>
    
