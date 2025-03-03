@@ -42,8 +42,8 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 4. **Building a Random Background Color Changer**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/04-Debugging-by-Building-a-Random-Background-Color-Changer)
 
-6. **Building a Gradebook App**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
+6. **Building a Rock, Paper, Scissors Game**  
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
    
 </details>
 
