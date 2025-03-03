@@ -18,7 +18,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 3. **Set of Colored Markers**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/03-Set-of-Colored-Markers)
 
-4. **Building a Registration Form**  
+4. **Registration Form**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Building-a-Registration-Form)
 
 5. **Survey Form** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
@@ -33,16 +33,16 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <h3>:computer: JavaScript Projects</h3>
 </summary>
 
-1. **Building a Pyramid Generator**  
+1. **Pyramid Generator**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/01-Building-a-Pyramid-Generator)
 
-2. **Building a Gradebook App**  
+2. **Gradebook App**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/02-Building-a-Gradebook-App)
 
-4. **Building a Random Background Color Changer**  
+4. **Random Background Color Changer**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/04-Debugging-by-Building-a-Random-Background-Color-Changer)
 
-6. **Building a Rock, Paper, Scissors Game**  
+6. **Rock, Paper, Scissors Game**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
    
 </details>
