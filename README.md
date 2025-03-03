@@ -21,8 +21,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 4. **Building a Registration Form**  
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Building-a-Registration-Form)
 
-5. **Survey Form** - _Certification project_ <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/05-Survey-form-Certification-Project/)
+5. **Survey Form** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/05-Survey-form-Certification-Project/) 
+   <!-- **Survey Form** - _Certification project_ <br/> -->
 
 </details>
 
@@ -62,19 +63,19 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <br/>
 </details>
    
-1. **Visualize Data with a Bar Chart** - _Certification project_ <br/>
+1. **Visualize Data with a Bar Chart** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
 
-2. **Visualize Data with a Scatterplot Graph** - _Certification project_ <br/>
+2. **Visualize Data with a Scatterplot Graph** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/02-Visualize-Data-with-a-Scatterplot-Graph)
 
-3. **Visualize Data with a Heat Map** - _Certification project_ <br/>
+3. **Visualize Data with a Heat Map** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/03-Visualize-Data-with-a-Heat-Map)
 
-4. **Visualize Data with a Choropleth Map** - _Certification project_ <br/>
+4. **Visualize Data with a Choropleth Map** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/04-Visualize-Data-with-a-Choropleth-Map)
 
-5. **Visualize Data with a Treemap Diagram** - _Certification project_ <br/>
+5. **Visualize Data with a Treemap Diagram** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/05-Visualize-Data-with-a-Treemap-Diagram)
    
 </details>
