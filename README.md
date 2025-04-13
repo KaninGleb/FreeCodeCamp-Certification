@@ -19,13 +19,13 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/03-Set-of-Colored-Markers)
 
 4. **Registration Form**  
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Building-a-Registration-Form)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Registration-Form)
 
 5. **Survey Form** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/05-Survey-form-Certification-Project/) 
 
 6. **Rothko Painting** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-2/01-Building-a-Rothko-Painting/) 
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-2/01-Rothko-Painting/) 
 
 </details>
 
