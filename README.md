@@ -60,7 +60,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 <details>
    <summary>
-      <h3>:trophy: View Certificate</h3>
+      <h4>:trophy: View Certificate</h3>
    </summary>
    
    ![Visualization Certificate](./assets/certificates/data-visualization/data-visualization.png)  
