@@ -11,16 +11,16 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <h3>:globe_with_meridians: HTML & CSS Projects</h3>
 </summary>
    
-1. **Cat Photo App**  
+1. **Cat Photo App** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
 
-2. **Cafe Menu**  
+2. **Cafe Menu** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/02-Cafe-Menu)
 
-3. **Set of Colored Markers**  
+3. **Set of Colored Markers** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/03-Set-of-Colored-Markers)
 
-4. **Registration Form**  
+4. **Registration Form** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Registration-Form)
 
 5. **Survey Form** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
