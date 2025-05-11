@@ -41,16 +41,16 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <h3>:computer: JavaScript Projects</h3>
 </summary>
 
-1. **Pyramid Generator**  
+1. **Pyramid Generator** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/01-Building-a-Pyramid-Generator)
 
-2. **Gradebook App**  
+2. **Gradebook App** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/02-Building-a-Gradebook-App)
 
-4. **Random Background Color Changer**  
+4. **Random Background Color Changer** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/04-Debugging-by-Building-a-Random-Background-Color-Changer)
 
-6. **Rock, Paper, Scissors Game**  
+6. **Rock, Paper, Scissors Game** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
    
 </details>
