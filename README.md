@@ -62,7 +62,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <h3>:atom_symbol: Front End Development Libraries</h3>
 </summary>
 
-1. **Pyramid Generator**  
+1. **Cat Photo App - with Bootstrap**
 
 </details>
 
