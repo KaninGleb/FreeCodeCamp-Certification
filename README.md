@@ -3,6 +3,8 @@
 Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earning certifications! Here you'll find various projects showcasing my skills in HTML, CSS, and JavaScript.
 
 ## :link: Project Links:
+
+
 <!-- HTML & CSS -->
 <details open>
 <summary>
@@ -32,6 +34,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 </details>
 
+
 <!-- JavaScript -->
 <details open>
 <summary>
@@ -52,12 +55,24 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    
 </details>
 
+
+<!-- Front End Development Libraries -->
+<details open>
+<summary>
+   <h3>:atom_symbol: Front End Development Libraries</h3>
+</summary>
+
+1. **Pyramid Generator**  
+
+</details>
+
+
 <!-- Data Visualization -->
 <details open>
 <summary>
    <h3>:bar_chart: Data Visualization Projects</h3>
 </summary>
-
+   
 <details>
    <summary>
       <h4>:trophy: View Certificate</h3>
@@ -84,6 +99,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/05-Visualize-Data-with-a-Treemap-Diagram)
    
 </details>
+
 
 <!-- Description -->
 ### :books: Description
