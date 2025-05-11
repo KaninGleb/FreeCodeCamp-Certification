@@ -15,6 +15,15 @@
             margin: auto;
         }
 
+        .radio-container {
+            max-width: 210px;
+        }
+
+        .checkbox-container {
+            box-sizing: border-box;
+            max-width: 350px;
+        }
+
         h2 {
             font-family: 'Lobster', cursive;
         }
@@ -62,7 +71,7 @@
             <button class="btn btn-primary btn-custom"><i class="fa fa-thumbs-up"></i> Like</button>
         </div>
         <div class="col-4">
-            <button class="btn btn-info btn-custom"><i class="fa fa-info-circle"></i> Info</button>
+            <button class="btn btn-info btn-custom text-white"><i class="fa fa-info-circle"></i> Info</button>
         </div>
         <div class="col-4">
             <button class="btn btn-danger btn-custom"><i class="fa fa-trash"></i> Delete</button>
@@ -84,7 +93,7 @@
     </ol>
 
     <form action="https://freecatphotoapp.com/submit-cat-photo">
-        <div class="row mb-3">
+        <div class="radio-container row mb-3">
             <div class="col-6">
                 <label><input type="radio" name="indoor-outdoor"> Indoor</label>
             </div>
@@ -92,7 +101,7 @@
                 <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
             </div>
         </div>
-        <div class="row mb-3">
+        <div class="checkbox-container row mb-3">
             <div class="col-4">
                 <label><input type="checkbox" name="personality"> Loving</label>
             </div>
@@ -114,7 +123,6 @@
     </form>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.6/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
