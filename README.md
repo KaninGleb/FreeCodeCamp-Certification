@@ -64,6 +64,8 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 1. **Cat Photo App - with Bootstrap** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/01-Bootstrap/01-CatPhotoApp)
+
+2. **jQuery Playground** <br/>
    
 </details>
 
