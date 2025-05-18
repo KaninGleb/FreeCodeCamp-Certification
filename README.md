@@ -66,6 +66,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/01-Bootstrap/01-CatPhotoApp)
 
 2. **jQuery Playground** <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/02-jQuery/01-jQuery-Playground)
    
 </details>
 
