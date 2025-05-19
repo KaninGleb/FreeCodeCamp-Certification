@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 2px;
+  padding: 0;
+}
+
 // Step 1
 $text-color: red;
 
@@ -61,4 +67,9 @@ $text-color: red;
   height: 150px;
   background-color: red;
   @include border-stroke(medium);
+}
+
+// Step 5
+@for $i from 1 through 12 {
+  .text-#{$i} { font-size: $i * 15px }
 }
