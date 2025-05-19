@@ -69,7 +69,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/02-jQuery/01-jQuery-Playground)
 
 3. **Syntactically Awesome StyleSheets trainings - with SASS** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/02-jQuery/01-jQuery-Playground)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/03-SASS/SASS-Trainings)
 </details>
 
 
