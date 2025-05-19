@@ -32,4 +32,11 @@
   background-color: orange;
 }
 
+#box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border: 3px solid black;
+}
+
 /*# sourceMappingURL=styles.css.map */
