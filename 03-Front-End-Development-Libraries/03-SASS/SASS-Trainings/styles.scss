@@ -7,16 +7,17 @@
 // Step 1
 $text-color: red;
 
-.header-1 {
+.header-step1 {
   text-align: center;
 }
 
-.blog-post-1, .h2-1 {
+.blog-post-step1, .h2-step1 {
   color: $text-color;
 }
 
+
 // Step 2
-.blog-post-2 {
+.blog-post-2-step2 {
   h1 {
     text-align: center;
     color: blue;
@@ -27,6 +28,7 @@ $text-color: red;
   }
 }
 
+
 // Step 3
 @mixin shape($w, $h, $bg-color) {
   width: $w;
@@ -34,17 +36,18 @@ $text-color: red;
   background-color: $bg-color;
 }
 
-#square {
+#square-step3 {
   @include shape(50px, 50px, red);
 }
 
-#rect-a {
+#rect-a-step3 {
   @include shape(100px, 50px, blue);
 }
 
-#rect-b {
+#rect-b-step3 {
   @include shape(50px, 100px, orange);
 }
+
 
 // Step 4
 @mixin border-stroke($val) {
@@ -62,52 +65,57 @@ $text-color: red;
   }
 }
 
-#box {
+#box-step4 {
   width: 150px;
   height: 150px;
   background-color: red;
   @include border-stroke(medium);
 }
 
+
 // Step 5
 @for $i from 1 through 12 {
-  .text-#{$i} { font-size: $i * 15px }
+  .text-#{$i}-step5 { font-size: $i * 15px }
 }
+
 
 // Step 6
 $colors: ( 'blue': blue, 'black': black, 'red': red );
 
 @each $key, $color in $colors {
-  .#{$key}-bg { background-color: $color }
+  .#{$key}-bg-step6 { background-color: $color }
 }
 
-div {
+.div-step6 {
   height: 200px;
   width: 200px;
 }
 
+
 // Step 7
 $x: 1;
 @while $x <= 5 {
-  .text-#{$x} { font-size: 15px * $x }
+  .text-#{$x}-step7 { font-size: 15px * $x }
   $x: $x + 1;
 }
 
+
 // Step 8 - Deprecation Warning [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-//@use 'variables';
+// @use 'variables';
+
 
 // Step 9
-h3 {
+.header-posts-step9 {
   text-align: center;
 }
 
-.info {
+.info-step9 {
   width: 200px;
   border: 1px solid black;
   margin: 0 auto;
 }
 
-.info-important {
-  @extend .info;
+.info-important-step9 {
+  @extend .info-step9;
   background-color: magenta;
 }

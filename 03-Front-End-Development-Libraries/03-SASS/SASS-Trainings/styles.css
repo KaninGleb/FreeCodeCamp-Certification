@@ -4,143 +4,143 @@
   padding: 0;
 }
 
-.header-1 {
+.header-step1 {
   text-align: center;
 }
 
-.blog-post-1, .h2-1 {
+.blog-post-step1, .h2-step1 {
   color: red;
 }
 
-.blog-post-2 h1 {
+.blog-post-2-step2 h1 {
   text-align: center;
   color: blue;
 }
-.blog-post-2 p {
+.blog-post-2-step2 p {
   font-size: 20px;
 }
 
-#square {
+#square-step3 {
   width: 50px;
   height: 50px;
   background-color: red;
 }
 
-#rect-a {
+#rect-a-step3 {
   width: 100px;
   height: 50px;
   background-color: blue;
 }
 
-#rect-b {
+#rect-b-step3 {
   width: 50px;
   height: 100px;
   background-color: orange;
 }
 
-#box {
+#box-step4 {
   width: 150px;
   height: 150px;
   background-color: red;
   border: 3px solid black;
 }
 
-.text-1 {
+.text-1-step5 {
   font-size: 15px;
 }
 
-.text-2 {
+.text-2-step5 {
   font-size: 30px;
 }
 
-.text-3 {
+.text-3-step5 {
   font-size: 45px;
 }
 
-.text-4 {
+.text-4-step5 {
   font-size: 60px;
 }
 
-.text-5 {
+.text-5-step5 {
   font-size: 75px;
 }
 
-.text-6 {
+.text-6-step5 {
   font-size: 90px;
 }
 
-.text-7 {
+.text-7-step5 {
   font-size: 105px;
 }
 
-.text-8 {
+.text-8-step5 {
   font-size: 120px;
 }
 
-.text-9 {
+.text-9-step5 {
   font-size: 135px;
 }
 
-.text-10 {
+.text-10-step5 {
   font-size: 150px;
 }
 
-.text-11 {
+.text-11-step5 {
   font-size: 165px;
 }
 
-.text-12 {
+.text-12-step5 {
   font-size: 180px;
 }
 
-.blue-bg {
+.blue-bg-step6 {
   background-color: blue;
 }
 
-.black-bg {
+.black-bg-step6 {
   background-color: black;
 }
 
-.red-bg {
+.red-bg-step6 {
   background-color: red;
 }
 
-div {
+.div-step6 {
   height: 200px;
   width: 200px;
 }
 
-.text-1 {
+.text-1-step7 {
   font-size: 15px;
 }
 
-.text-2 {
+.text-2-step7 {
   font-size: 30px;
 }
 
-.text-3 {
+.text-3-step7 {
   font-size: 45px;
 }
 
-.text-4 {
+.text-4-step7 {
   font-size: 60px;
 }
 
-.text-5 {
+.text-5-step7 {
   font-size: 75px;
 }
 
-h3 {
+.header-posts-step9 {
   text-align: center;
 }
 
-.info, .info-important {
+.info-step9, .info-important-step9 {
   width: 200px;
   border: 1px solid black;
   margin: 0 auto;
 }
 
-.info-important {
+.info-important-step9 {
   background-color: magenta;
 }
 
