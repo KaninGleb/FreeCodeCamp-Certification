@@ -73,3 +73,15 @@ $text-color: red;
 @for $i from 1 through 12 {
   .text-#{$i} { font-size: $i * 15px }
 }
+
+// Step 6
+$colors: ( 'blue': blue, 'black': black, 'red': red );
+
+@each $key, $color in $colors {
+  .#{$key}-bg { background-color: $color }
+}
+
+div {
+  height: 200px;
+  width: 200px;
+}
