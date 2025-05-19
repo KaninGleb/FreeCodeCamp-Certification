@@ -92,3 +92,6 @@ $x: 1;
   .text-#{$x} { font-size: 15px * $x }
   $x: $x + 1;
 }
+
+// Step 8 - Deprecation Warning [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+//@use 'variables';
