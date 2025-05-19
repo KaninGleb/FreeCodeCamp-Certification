@@ -85,3 +85,10 @@ div {
   height: 200px;
   width: 200px;
 }
+
+// Step 7
+$x: 1;
+@while $x <= 5 {
+  .text-#{$x} { font-size: 15px * $x }
+  $x: $x + 1;
+}
