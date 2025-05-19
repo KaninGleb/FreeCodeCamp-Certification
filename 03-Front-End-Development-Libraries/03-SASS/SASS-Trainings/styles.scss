@@ -1,8 +1,22 @@
+// Step 1
 $text-color: red;
 
-.header{
+.header-1 {
   text-align: center;
 }
-.blog-post, h2 {
+
+.blog-post-1, .h2-1 {
   color: $text-color;
+}
+
+// Step 2
+.blog-post-2 {
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
