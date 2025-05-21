@@ -16,7 +16,13 @@
     <h1 class="title">Pyramid Generator</h1>
     <form class="settings">
         <label for="symbol">Choose a symbol:</label>
-        <input type="text" id="symbol" value="❤️" maxlength="1">
+        <select id="symbol">
+            <option value="❤️">❤️ Heart</option>
+            <option value="🌟">🌟 Star</option>
+            <option value="🔺">🔺 Triangle</option>
+            <option value="🌈">🌈 Rainbow</option>
+            <option value="😊">😊 Smile</option>
+        </select>
 
         <label for="levels">Number of levels (1-30):</label>
         <input type="number" id="levels" value="10" min="1" max="30">
