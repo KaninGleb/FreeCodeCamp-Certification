@@ -11,29 +11,44 @@
     --golden-yellow: #feac32;
     --dark-purple: #110815;
     --light-grey: #efefef;
-    --text-shadow: #000000;
+    --light-text: #333333;
+    --text-shadow: #ffffff;
+
+    --wrapper-bg: rgba(255, 255, 255, 0.6);
+    --font-family: 'Montserrat', sans-serif;
+    --font-size: 1.2rem;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
     background-color: var(--dark-purple);
     color: var(--light-grey);
     text-align: center;
 }
 
+.wrapper {
+    background-color: var(--wrapper-bg);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 50px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
 .title {
-    margin-top: 30px;
-    text-shadow: 1px 1px 3px var(--text-shadow);
+    color: var(--dark-purple);
 }
 
 .bg-information-container {
+    color: var(--light-text);
     margin: 15px 0 25px;
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 3px var(--text-shadow);
-
+    font-size: var(--font-size);
+    font-weight: bold;
 }
 
 .btn {
+    font-family: var(--font-family);
+    font-weight: 500;
     cursor: pointer;
     padding: 10px;
     margin: 10px;
