@@ -12,33 +12,33 @@
 </head>
 
 <body>
-<div class="container">
-    <h1 class="title">Pyramid Generator</h1>
-    <form class="settings">
-        <label for="symbol">Choose a symbol:</label>
-        <select id="symbol">
-            <option value="❤️">❤️ Heart</option>
-            <option value="🌟">🌟 Star</option>
-            <option value="🔺">🔺 Triangle</option>
-            <option value="🌈">🌈 Rainbow</option>
-            <option value="😊">😊 Smile</option>
-        </select>
+    <div class="container">
+        <h1 class="title">Pyramid Generator</h1>
+        <form class="settings">
+            <label for="symbol">Choose a symbol:</label>
+            <select id="symbol">
+                <option value="❤️">❤️ Heart</option>
+                <option value="🌟">🌟 Star</option>
+                <option value="🔺">🔺 Triangle</option>
+                <option value="🌈">🌈 Rainbow</option>
+                <option value="😊">😊 Smile</option>
+            </select>
 
-        <label for="levels">Number of levels (1-30):</label>
-        <input type="number" id="levels" value="10" min="1" max="30">
+            <label for="levels">Number of levels (1-30):</label>
+            <input type="number" id="levels" value="10" min="1" max="30">
 
-        <label for="direction">Choose direction:</label>
-        <select id="direction">
-            <option value="normal">Normal</option>
-            <option value="inverted">Inverted</option>
-        </select>
+            <label for="direction">Choose direction:</label>
+            <select id="direction">
+                <option value="normal">Normal</option>
+                <option value="inverted">Inverted</option>
+            </select>
 
-        <button id="generate" type="button">Generate Pyramid</button>
-    </form>
-    <pre id="pyramid" class="pyramid"></pre>
-</div>
+            <button id="generate" type="button">Generate Pyramid</button>
+        </form>
+        <pre id="pyramid" class="pyramid"></pre>
+    </div>
 
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
