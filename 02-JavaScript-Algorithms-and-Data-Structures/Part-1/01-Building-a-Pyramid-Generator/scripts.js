@@ -1,4 +1,13 @@
 
+document.getElementById('levels').addEventListener('input', (e) => {
+  let currLevel = +e.currentTarget.value
+  if (currLevel > 30) {
+    e.currentTarget.value = '30'
+  } else if (currLevel < 0) {
+    e.currentTarget.value = '0'
+  }
+})
+
 document.getElementById('generate').addEventListener('click', () => {
   const character = document.getElementById('symbol').value;
   const count = parseInt(document.getElementById('levels').value);
