@@ -11,17 +11,26 @@
     --golden-yellow: #feac32;
     --dark-purple: #110815;
     --light-grey: #efefef;
+    --text-shadow: #000000;
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--dark-purple);
     color: var(--light-grey);
     text-align: center;
 }
 
+.title {
+    margin-top: 30px;
+    text-shadow: 1px 1px 3px var(--text-shadow);
+}
+
 .bg-information-container {
     margin: 15px 0 25px;
     font-size: 1.2rem;
+    text-shadow: 1px 1px 3px var(--text-shadow);
+
 }
 
 .btn {
