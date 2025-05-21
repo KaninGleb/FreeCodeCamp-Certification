@@ -1,10 +1,16 @@
 
 document.getElementById('levels').addEventListener('input', (e) => {
-  let currLevel = +e.currentTarget.value
-  if (currLevel > 30) {
-    e.currentTarget.value = '30'
-  } else if (currLevel < 0) {
-    e.currentTarget.value = '0'
+  let currLevel = e.currentTarget.value
+  const validPattern = /^(0|[1-9]\d{0,1}|[1-2][0-9]|30)$/
+
+  if (!validPattern.test(currLevel) || currLevel.includes('e') || currLevel.includes('-')) {
+    e.currentTarget.value = ''
+  } else {
+    if (+currLevel > 30) {
+      e.currentTarget.value = '30'
+    } else if (+currLevel < 0) {
+      e.currentTarget.value = '0'
+    }
   }
 })
 
