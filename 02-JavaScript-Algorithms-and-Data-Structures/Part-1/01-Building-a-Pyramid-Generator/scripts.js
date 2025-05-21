@@ -43,6 +43,7 @@ document.getElementById('generate').addEventListener('click', () => {
 })
 
 
+
 // // While
 // while (rows.length < count) {
 //     rows.push(padRow(rows.length + 1, count));
