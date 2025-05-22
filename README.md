@@ -72,7 +72,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/03-SASS/SASS-Trainings)
 
 4. **Class based React Trainings** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/03-SASS/SASS-Trainings)
+   [View Code](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/04-React/Class-based-React-Trainings/src/Trainings)
    
 </details>
 
