@@ -26,6 +26,8 @@
 
 
 // ✅ SOLUTION
+import {createStore} from "redux";
+
 const reducer = (state = 5) => {
   return state;
 }
@@ -34,4 +36,6 @@ const reducer = (state = 5) => {
 // For example: Redux.createStore()
 // Define the store here:
 
-const store = createStore()
+const store = createStore(
+  (state = 5) => state
+)
