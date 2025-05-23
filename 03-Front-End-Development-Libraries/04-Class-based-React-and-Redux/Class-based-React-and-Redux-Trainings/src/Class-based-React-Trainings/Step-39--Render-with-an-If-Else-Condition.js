@@ -16,7 +16,9 @@
 
 
 // ✅ SOLUTION
-class MyComponent extends React.Component {
+import {Component} from "react";
+
+class MyComponent extends Component {
   constructor(props) {
     super(props);
 
