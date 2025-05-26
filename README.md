@@ -83,7 +83,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- Data Visualization -->
 <details open>
 <summary>
-   <h3>:bar_chart: Data Visualization Projects</h3>
+   <h3>:bar_chart: $\textsf{\color{#ffcc00}{Data Visualization Projects}}$</h3>
 </summary>
    
 <details>
