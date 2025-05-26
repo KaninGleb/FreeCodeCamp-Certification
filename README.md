@@ -8,7 +8,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- HTML & CSS -->
 <details open>
 <summary>
-   <h3>:globe_with_meridians: HTML & CSS Projects</h3>
+   <h3>:globe_with_meridians: $\textsf{\color{#ffcc00}{HTML and CSS Projects}}$</h3>
 </summary>
    
 1. **Cat Photo App** <br/>
