@@ -38,7 +38,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- JavaScript -->
 <details open>
 <summary>
-   <h3>:computer: JavaScript Projects</h3>
+   <h3>:computer: $\textsf{\color{#ffcc00}{JavaScript Projects}}$</h3>
 </summary>
 
 1. **Pyramid Generator** <br/>
