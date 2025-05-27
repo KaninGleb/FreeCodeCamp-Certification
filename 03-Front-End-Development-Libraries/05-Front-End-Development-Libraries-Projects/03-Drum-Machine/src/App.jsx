@@ -1,7 +1,88 @@
+import { useState, useEffect } from 'react'
+import { drumPads } from './data/audioClips.data.js'
 import s from './App.module.css'
 
 export const App = () => {
+  const [displayText, setDisplayText] = useState('')
+  const [volume, setVolume] = useState(0.05)
+
+  const handlePadClick = (padId, padKey) => {
+    const audio = document.getElementById(padKey)
+    audio.currentTime = 0
+    audio.volume = volume
+    audio.play()
+    setDisplayText(padId)
+  }
+
+  const handleKeyDown = (e) => {
+    const key = e.key.toUpperCase()
+    const pad = drumPads.find((pad) => pad.key === key)
+
+    if (pad) {
+      handlePadClick(pad.id, pad.key)
+    }
+  }
+
+  const handleVolumeChange = (e) => {
+    const newVolume = parseFloat(e.target.value)
+    setVolume(newVolume)
+    setDisplayText(`Volume: ${Math.round(newVolume * 100)}%`)
+
+    drumPads.forEach(pad => {
+      const audio = document.getElementById(pad.key)
+      if (audio) {
+        audio.volume = newVolume
+      }
+    })
+  }
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown)
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [])
+
   return (
-    <div>Hello world!</div>
+    <div id="drum-machine" className={s.drumMachine}>
+      <div id="display" className={s.display}>
+        {displayText}
+      </div>
+
+      <div className={s.padContainer}>
+        {drumPads.map((pad) => (
+          <div
+            key={pad.key}
+            id={pad.id}
+            className={`${s.drumPad} drum-pad`}
+            onClick={() => handlePadClick(pad.name, pad.key)}
+          >
+            {pad.key}
+            <audio
+              id={pad.key}
+              className="clip"
+              src={pad.audio}
+            />
+          </div>
+        ))}
+      </div>
+
+      <div className={s.controls}>
+        <div className={s.volumeControl}>
+          <label htmlFor="volume">VOLUME</label>
+          <input
+            type="range"
+            id="volume"
+            min="0"
+            max="1"
+            step="0.01"
+            value={volume}
+            onChange={handleVolumeChange}
+            style={{ '--background-size': `${volume * 100}%` }}
+          />
+          <div className={s.volumeValue}>{Math.round(volume * 100)}%</div>
+        </div>
+      </div>
+    </div>
   )
 }
