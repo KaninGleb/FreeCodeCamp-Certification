@@ -1,0 +1,196 @@
+.App {
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+    background-color: #1e1e1e;
+    min-height: 100vh;
+    color: #d4d4d4;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #252526;
+    color: #569cd6;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #333;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    font-weight: 700; /* Increased weight for better emphasis */
+    color: #ffffff; /* Changed to white for better contrast */
+    margin: 0;
+    padding: 10px 15px; /* Increased padding for better spacing */
+    border-top-left-radius: 8px; /* Slightly larger radius for a softer look */
+    border-top-right-radius: 8px; /* Slightly larger radius for a softer look */
+    font-size: 1.5rem; /* Increased font size for better visibility */
+    background-color: #6a9955; /* Changed to a more vibrant color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Added text shadow for depth */
+}
+
+
+.editor {
+    padding: 10px;
+    min-height: 70vh;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+    resize: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.preview {
+    border: 1px solid #333;
+    min-height: 70vh;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #252526;
+    overflow-y: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.editor:focus {
+    outline: 1px solid #569cd6;
+    border-color: #569cd6;
+}
+
+/* Markdown */
+.preview h1 {
+    color: #569cd6;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+.preview h2 {
+    color: #4ec9b0;
+}
+
+.preview h3 {
+    color: #c586c0;
+}
+
+.preview a {
+    color: #9cdcfe;
+    text-decoration: none;
+}
+
+.preview a:hover {
+    text-decoration: underline;
+}
+
+.preview ul, .preview ol {
+    padding-left: 25px;
+    line-height: 1.6;
+}
+
+.preview li {
+    margin-bottom: 5px;
+}
+
+.preview pre {
+    max-width: max-content;
+    background-color: #1e1e1e;
+    padding: 12px 80px 12px 12px;
+    border-radius: 4px;
+    overflow-x: auto;
+    border-left: 3px solid #569cd6;
+}
+
+.preview code {
+    font-size: 16px;
+    background-color: #1e1e1e;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #ce9178;
+    font-family: inherit;
+}
+
+.preview blockquote {
+    max-width: max-content;
+    border-left: 3px solid #6a9955;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+    color: #6a9955;
+    background-color: rgba(106, 153, 85, 0.1);
+}
+
+.preview table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.preview th, .preview td {
+    border: 1px solid #3c3c3c;
+    padding: 8px 12px;
+}
+
+.preview th {
+    background-color: #2d2d30;
+    color: #569cd6;
+}
+
+.preview img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.preview strong {
+    color: #d7ba7d;
+    font-weight: normal;
+}
+
+.preview em {
+    color: #b5cea8;
+    font-style: italic;
+}
+
+.preview::-webkit-scrollbar {
+    width: 8px;
+}
+
+.preview::-webkit-scrollbar-track {
+    background: #252526;
+}
+
+.preview::-webkit-scrollbar-thumb {
+    background: #3e3e42;
+    border-radius: 4px;
+}
+
+.preview::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media screen and (max-width: 1500px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+    }
+}
