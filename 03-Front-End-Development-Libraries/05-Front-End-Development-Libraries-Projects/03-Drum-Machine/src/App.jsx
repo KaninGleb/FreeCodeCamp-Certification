@@ -5,6 +5,7 @@ import s from './App.module.css'
 export const App = () => {
   const [displayText, setDisplayText] = useState('')
   const [volume, setVolume] = useState(0.05)
+  const [activePad, setActivePad] = useState(null)
 
   const handlePadClick = (padId, padKey) => {
     const audio = document.getElementById(padKey)
@@ -14,13 +15,22 @@ export const App = () => {
     setDisplayText(padId)
   }
 
+  const handleInteraction = (padId, padKey) => {
+    handlePadClick(padId, padKey)
+    setActivePad(padKey)
+  }
+
   const handleKeyDown = (e) => {
     const key = e.key.toUpperCase()
     const pad = drumPads.find((pad) => pad.key === key)
 
     if (pad) {
-      handlePadClick(pad.id, pad.key)
+      handleInteraction(pad.name, pad.key)
     }
+  }
+
+  const handleKeyUp = () => {
+    setActivePad(null)
   }
 
   const handleVolumeChange = (e) => {
@@ -38,8 +48,10 @@ export const App = () => {
 
   useEffect(() => {
     document.addEventListener('keydown', handleKeyDown)
+    document.addEventListener('keyup', handleKeyUp)
     return () => {
       document.removeEventListener('keydown', handleKeyDown)
+      document.removeEventListener('keyup', handleKeyUp)
     }
   }, [])
 
@@ -51,10 +63,10 @@ export const App = () => {
 
       <div className={s.padContainer}>
         {drumPads.map((pad) => (
-          <div
+          <button
             key={pad.key}
             id={pad.id}
-            className={`${s.drumPad} drum-pad`}
+            className={`${s.drumPad} drum-pad ${activePad === pad.key ? s.active : ''}`}
             onClick={() => handlePadClick(pad.name, pad.key)}
           >
             {pad.key}
@@ -63,7 +75,7 @@ export const App = () => {
               className="clip"
               src={pad.audio}
             />
-          </div>
+          </button>
         ))}
       </div>
 
