@@ -77,11 +77,14 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 5. **Redux Trainings** <br/>
    [View Code](https://github.com/KaninGleb/FreeCodeCamp-Certification/tree/main/03-Front-End-Development-Libraries/04-Class-based-React-and-Redux/src/Redux-Trainings)
 
-5. **Random Quote Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+6. **Random Quote Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://random-quote-machine-two-rouge.vercel.app/)
 
-5. **Markdown Previewer** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+7. **Markdown Previewer** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://markdown-previewer-xi-liard.vercel.app/)
+
+8. **Drum Machine**
+   [View Project](https://drum-machine-eta-rose.vercel.app/)
    
 </details>
 
