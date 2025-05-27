@@ -79,6 +79,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 5. **Random Quote Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://random-quote-machine-two-rouge.vercel.app/)
+
+5. **Markdown Previewer** <br/>
+   [View Code](https://markdown-previewer-xi-liard.vercel.app/)
    
 </details>
 
