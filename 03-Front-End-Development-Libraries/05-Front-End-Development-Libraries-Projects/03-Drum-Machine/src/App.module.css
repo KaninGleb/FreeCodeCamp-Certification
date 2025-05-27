@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.drumMachine {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 20px 0 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #ff9900;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.padContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 30px;
+}
+
+.drumPad {
+    height: 100px;
+    background-color: #333;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #222, 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease;
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.drumPad::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 153, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.drumPad:hover {
+    background-color: #3a3a3a;
+}
+
+.drumPad:active, .drumPad.active {
+    background-color: #ff9900;
+    transform: translateY(5px);
+    box-shadow: 0 2px 0 #222, 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.drumPad:active::after, .drumPad.active::after {
+    opacity: 1;
+}
+
+.controls {
+    margin: 30px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.volumeControl {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.volumeControl label {
+    font-weight: 500;
+    color: #ff9900;
+    letter-spacing: 1px;
+}
+
+.volumeControl input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #333;
+    border-radius: 10px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.volumeControl input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff9900;
+    cursor: pointer;
+    transition: all 0.1s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.volumeControl input[type="range"]::-webkit-slider-thumb:hover {
+    background: #ffaa33;
+    transform: scale(1.1);
+}
+
+.volumeControl input[type="range"] {
+    --background-size: 0;
+    width: 100%;
+    height: 8px;
+    background: #333;
+    border-radius: 10px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.volumeValue {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.volumeControl input[type="range"] {
+    --background-size: 0;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #333;
+    border-radius: 10px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.volumeValue {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
