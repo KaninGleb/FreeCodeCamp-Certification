@@ -83,7 +83,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 7. **Markdown Previewer** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://markdown-previewer-xi-liard.vercel.app/)
 
-8. **Drum Machine**
+8. **Drum Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://drum-machine-eta-rose.vercel.app/)
    
 </details>
