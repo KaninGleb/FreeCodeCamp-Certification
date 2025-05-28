@@ -1,3 +1,5 @@
+import {Calculator} from "./components/Calculator/Calculator.jsx";
+
 export const App = () => {
-  return <div>Hello World!</div>
+  return <Calculator />
 }
