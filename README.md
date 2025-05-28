@@ -85,6 +85,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 8. **Drum Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://drum-machine-eta-rose.vercel.app/)
+
+9. **Calculator** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+   [View Project](https://drum-machine-eta-rose.vercel.app/)
    
 </details>
 
