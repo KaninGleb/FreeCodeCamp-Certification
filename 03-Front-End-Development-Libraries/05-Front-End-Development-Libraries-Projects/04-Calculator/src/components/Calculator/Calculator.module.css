@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.calculator {
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.formulaDisplay {
+    height: 36px;
+    background-color: #333;
+    text-align: right;
+    padding: 8px 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #ff9900;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.outputDisplay {
+    height: 70px;
+    background-color: #333;
+    text-align: right;
+    padding: 10px 15px;
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 5px 0 #222, 0 5px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0 2px 0 #222, 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+button:active::after {
+    opacity: 1;
+}
+
+.numberBtn {
+    background-color: #333;
+    color: white;
+}
+
+.numberBtn:hover {
+    background-color: #3a3a3a;
+}
+
+.numberBtn:active {
+    background-color: #444;
+}
+
+.operatorBtn {
+    background-color: #ff9900;
+    color: #1a1a1a;
+}
+
+.operatorBtn:hover {
+    background-color: #ffaa33;
+}
+
+.operatorBtn:active {
+    background-color: #e68a00;
+}
+
+.clearBtn {
+    background-color: #d9534f;
+    color: white;
+    grid-column: span 2;
+}
+
+.clearBtn:hover {
+    background-color: #c9302c;
+}
+
+.clearBtn:active {
+    background-color: #ac2925;
+}
+
+.equalsBtn {
+    background-color: #5cb85c;
+    color: white;
+    grid-row: span 2;
+}
+
+.equalsBtn:hover {
+    background-color: #4cae4c;
+}
+
+.equalsBtn:active {
+    background-color: #398439;
+}
+
+.zeroBtn {
+    grid-column: span 2;
+}
+
+@media (max-width: 500px) {
+    .calculator {
+        scale: .8;
+    }
+}
