@@ -81,7 +81,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://random-quote-machine-lovat-mu.vercel.app/) / [View Repository](https://github.com/KaninGleb/Random-Quote-Machine)
 
 7. **Markdown Previewer** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
-   [View Project](https://markdown-previewer-xi-liard.vercel.app/)
+   [View Project](https://markdown-previewer-ebon-tau.vercel.app/) / [View Repository](https://github.com/KaninGleb/Markdown-Previewer)
 
 8. **Drum Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://drum-machine-eta-rose.vercel.app/)
