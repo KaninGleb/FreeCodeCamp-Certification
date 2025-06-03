@@ -84,7 +84,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://markdown-previewer-ebon-tau.vercel.app/) / [View Repository](https://github.com/KaninGleb/Markdown-Previewer)
 
 8. **Drum Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
-   [View Project](https://drum-machine-flax-three.vercel.app/)
+   [View Project](https://drum-machine-flax-three.vercel.app/) / [View Repository](https://github.com/KaninGleb/Drum-Machine)
 
 9. **Calculator** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://calculator-on-react-woad.vercel.app/)
