@@ -59,7 +59,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- Front End Development Libraries -->
 <details open>
 <summary>
-   <h3>:atom_symbol: $\textsf{\color{#ffcc00}{Front End Development Libraries}}$</h3>
+   <h3>:atom_symbol: $\{\color{#ffcc00}{Front End Development Libraries}}$</h3>
 </summary>
 
 1. **Cat Photo App - with Bootstrap** <br/>
@@ -88,6 +88,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 9. **Calculator** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://calculator-on-react-woad.vercel.app/)
+
+10. **Pomodoro Clock** - ✨Certification project✨ <br/>
+   [View Project](https://25-plus-5-clock-chi.vercel.app/)
    
 </details>
 
