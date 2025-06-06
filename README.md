@@ -90,7 +90,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://calculator-on-react-woad.vercel.app/)
 
 10. **Pomodoro Clock** - ✨Certification project✨ <br/>
-   [View Project](https://25-plus-5-clock-chi.vercel.app/)
+   [View Project](https://25-plus-5-clock-chi.vercel.app/) / [View Repository](https://github.com/KaninGleb/Pomodoro-Clock)
    
 </details>
 
