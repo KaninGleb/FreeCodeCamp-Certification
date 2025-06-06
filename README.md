@@ -132,3 +132,13 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- Description -->
 ### :books: Description
 This repository showcases my learning journey through FreeCodeCamp, featuring a variety of projects that highlight different facets of web development. Each project emphasizes essential skills, from crafting responsive layouts with HTML and CSS to implementing dynamic interactivity with JavaScript. Dive in to explore how I've developed my abilities and gained practical experience in creating functional and visually appealing web applications.
+
+
+<!-- <h3>:globe_with_meridians: $\textsf{\color{#ffcc00}{Example}}$</h3> -->
+<!-- **Example** - $${\color{lightgreen}✨Example \space Example✨}$$ <br/> -->
+
+<!-- Colors: -->
+<!-- #ffcc00 -->
+<!-- lightgreen -->
+
+
