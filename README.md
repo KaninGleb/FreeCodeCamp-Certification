@@ -59,7 +59,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- Front End Development Libraries -->
 <details open>
 <summary>
-   <h3>:atom_symbol: $\{\color{#ffcc00}{Front End Development Libraries}}$</h3>
+   <h3>:atom_symbol: Front End Development Libraries</h3>
 </summary>
 
 1. **Cat Photo App - with Bootstrap** <br/>
@@ -77,19 +77,19 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 5. **Redux Trainings** <br/>
    [View Code](https://github.com/KaninGleb/FreeCodeCamp-Certification/tree/main/03-Front-End-Development-Libraries/04-Class-based-React-and-Redux/src/Redux-Trainings)
 
-6. **Random Quote Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+6. **Random Quote Machine** - $${✨Certification \space project✨}$$ <br/>
    [View Project](https://random-quote-machine-lovat-mu.vercel.app/) / [View Repository](https://github.com/KaninGleb/Random-Quote-Machine)
 
-7. **Markdown Previewer** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+7. **Markdown Previewer** - $${✨Certification \space project✨}$$ <br/>
    [View Project](https://markdown-previewer-ebon-tau.vercel.app/) / [View Repository](https://github.com/KaninGleb/Markdown-Previewer)
 
-8. **Drum Machine** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+8. **Drum Machine** - $${✨Certification \space project✨}$$ <br/>
    [View Project](https://drum-machine-flax-three.vercel.app/) / [View Repository](https://github.com/KaninGleb/Drum-Machine)
 
-9. **Calculator** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+9. **Calculator** - $${✨Certification \space project✨}$$ <br/>
    [View Project](https://calculator-on-react-five.vercel.app/) / [View Repository](https://github.com/KaninGleb/Calculator-on-React)
 
-10. **Pomodoro Clock** - ✨Certification project✨ <br/>
+10. **Pomodoro Clock** - $${✨Certification \space project✨}$$ <br/>
    [View Project](https://25-plus-5-clock-chi.vercel.app/) / [View Repository](https://github.com/KaninGleb/Pomodoro-Clock)
    
 </details>
