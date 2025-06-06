@@ -87,7 +87,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://drum-machine-flax-three.vercel.app/) / [View Repository](https://github.com/KaninGleb/Drum-Machine)
 
 9. **Calculator** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
-   [View Project](https://calculator-on-react-woad.vercel.app/) / [View Repository](https://github.com/KaninGleb/Calculator-on-React)
+   [View Project](https://calculator-on-react-five.vercel.app/) / [View Repository](https://github.com/KaninGleb/Calculator-on-React)
 
 10. **Pomodoro Clock** - ✨Certification project✨ <br/>
    [View Project](https://25-plus-5-clock-chi.vercel.app/) / [View Repository](https://github.com/KaninGleb/Pomodoro-Clock)
