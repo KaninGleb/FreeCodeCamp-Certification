@@ -8,7 +8,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- HTML & CSS -->
 <details open>
 <summary>
-   <h3>:globe_with_meridians: $\textsf{\color{#ffcc00}{HTML and CSS Projects}}$</h3>
+   <h3>:globe_with_meridians: HTML and CSS Projects</h3>
 </summary>
    
 1. **Cat Photo App** <br/>
@@ -23,7 +23,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 4. **Registration Form** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/04-Registration-Form)
 
-5. **Survey Form** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+5. **Survey Form** - $${✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/05-Survey-form-Certification-Project/) 
 
 6. **Rothko Painting** <br/>
