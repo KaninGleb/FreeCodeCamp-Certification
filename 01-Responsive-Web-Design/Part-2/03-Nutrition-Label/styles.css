@@ -77,3 +77,6 @@ p {
     font-weight: 700;
 }
 
+.right {
+    justify-content: flex-end;
+}
