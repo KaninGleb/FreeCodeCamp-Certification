@@ -17,7 +17,7 @@ body {
     padding: 0 7px;
 }
 
-h1 {
+header h1 {
     text-align: center;
     margin: -4px 0;
     letter-spacing: 0.15px
@@ -25,6 +25,8 @@ h1 {
 
 p {
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .divider {
