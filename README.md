@@ -65,7 +65,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <!-- Front End Development Libraries -->
 <details open>
 <summary>
-   <h3>:atom_symbol: Front End Development Libraries</h3>
+   <h3>:atom_symbol: $\textsf{\color{#ffcc00}{Front End Development Libraries}}$</h3>
 </summary>
 
 1. **Cat Photo App - with Bootstrap** <br/>
