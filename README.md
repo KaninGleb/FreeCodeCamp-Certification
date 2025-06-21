@@ -117,19 +117,19 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <br/>
 </details>
    
-1. **Visualize Data with a Bar Chart** - $${✨Certification \space project✨}$$ <br/>
+1. **Visualize Data with a Bar Chart** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/01-Visualize-Data-with-a-Bar-Chart)
 
-2. **Visualize Data with a Scatterplot Graph** - $${✨Certification \space project✨}$$ <br/>
+2. **Visualize Data with a Scatterplot Graph** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/02-Visualize-Data-with-a-Scatterplot-Graph)
 
-3. **Visualize Data with a Heat Map** - $${✨Certification \space project✨}$$ <br/>
+3. **Visualize Data with a Heat Map** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/03-Visualize-Data-with-a-Heat-Map)
 
-4. **Visualize Data with a Choropleth Map** - $${✨Certification \space project✨}$$ <br/>
+4. **Visualize Data with a Choropleth Map** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/04-Visualize-Data-with-a-Choropleth-Map)
 
-5. **Visualize Data with a Treemap Diagram** - $${✨Certification \space project✨}$$ <br/>
+5. **Visualize Data with a Treemap Diagram** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/04-Data-Visualization-Projects/05-Visualize-Data-with-a-Treemap-Diagram)
    
 </details>
