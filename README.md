@@ -38,6 +38,10 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 9. **Quiz** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-2/04-Quiz/)
 
+
+11. **Balance Sheet** <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/01-Balance-Sheet/)
+
 </details>
 
 
