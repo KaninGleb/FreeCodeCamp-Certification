@@ -19,3 +19,13 @@ body {
     border: 1px solid #000;
     border-radius: 46%;
 }
+
+.cat-left-ear {
+    position: absolute;
+    top: -26px;
+    left: -31px;
+
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+}
