@@ -105,3 +105,23 @@ body {
     border-radius: 60%;
 }
 
+.cat-right-inner-eye {
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    transform: rotate(-5deg);
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 60%;
+}
+
+.cat-nose {
+    position: absolute;
+    top: 108px;
+    left: 85px;
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #442c2c;
+}
