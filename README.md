@@ -45,7 +45,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 13. **Cat Painting** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/02-Cat-Painting/)
 
-14. **Cat Painting** <br/>
+14. **Piano** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/02-Cat-Painting/)
 
 </details>
