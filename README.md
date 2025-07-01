@@ -48,7 +48,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 14. **Piano** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/03-Piano/)
 
-15. **Piano** <br/>
+15. **City Skyline** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/03-Piano/)
 
 </details>
