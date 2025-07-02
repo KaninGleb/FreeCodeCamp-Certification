@@ -6,6 +6,7 @@
     --window-color1: black;
     --window-color2: #8cd9b3;
     --window-color3: #d98cb3;
+    --window-color4: #8cb3d9;
 }
 
 * {
@@ -28,18 +29,19 @@ body {
     position: absolute;
     top: 0;
 }
-.building-wrap {
 
+.building-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
     width: 10%;
     height: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
+
 .bb1a {
     width: 70%;
 }
@@ -123,6 +125,12 @@ body {
     width: 100%;
     height: 85%;
     background-color: var(--building-color4);
+}
+
+.bb4-window {
+    width: 18%;
+    height: 90%;
+    background-color: var(--window-color4);
 }
 
 /* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
