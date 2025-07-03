@@ -85,10 +85,22 @@
 </body>
 
 <script>
-  const container = document.querySelector('.resizable-container');
+  const container = document.querySelector('.resizable-container')
+  const toggleButton = document.getElementById("toggleTheme")
 
-  document.getElementById("toggleTheme").addEventListener("click", () => {
-    container.classList.toggle("dark-mode");
-  });
+  toggleButton.addEventListener("click", () => {
+    container.classList.toggle("dark-mode")
+    if (container.classList.contains("dark-mode")) {
+      toggleButton.textContent = "Light Theme ☀️"
+    } else {
+      toggleButton.textContent = "Dark Theme 🌙"
+    }
+  })
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 't' || e.key === 'T') {
+      toggleButton.click()
+    }
+  })
 </script>
 </html>
