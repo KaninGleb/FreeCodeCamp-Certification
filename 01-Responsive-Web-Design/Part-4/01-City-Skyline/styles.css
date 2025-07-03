@@ -1,4 +1,4 @@
-:root {
+.resizable-container {
     --building-color1: #aa80ff;
     --building-color2: #66cc99;
     --building-color3: #cc6699;
@@ -41,7 +41,7 @@ body {
     justify-content: space-evenly;
 }
 
-.sky {
+.resizable-container .sky {
     background: radial-gradient(
             closest-corner circle at 15% 15%,
             #ffcf33,
@@ -297,6 +297,27 @@ body {
     );
 }
 
+.resizable-container.dark-mode {
+    --building-color1: #000;
+    --building-color2: #000;
+    --building-color3: #000;
+    --building-color4: #000;
+    --window-color1: #777;
+    --window-color2: #777;
+    --window-color3: #777;
+    --window-color4: #777;
+}
+
+.resizable-container.dark-mode .sky {
+    background: radial-gradient(
+            closest-corner circle at 15% 15%,
+            #ccc,
+            #ccc 20%,
+            #445 21%,
+            #223 100%
+    );
+}
+
 @media (max-width: 1000px) {
     :root {
         --building-color1: #000;
@@ -318,4 +339,34 @@ body {
                 #223 100%
         );
     }
+}
+
+button {
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+}
+
+button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.02);
+}
+
+button:active {
+    background-color: #666;
 }
