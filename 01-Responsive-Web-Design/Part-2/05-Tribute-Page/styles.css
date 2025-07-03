@@ -164,8 +164,18 @@ body {
 .quote::before {
     content: '"';
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0;
+    left: 0;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.1);
+    font-family: var(--font-heading);
+}
+
+.quote::after {
+    content: '"';
+    position: absolute;
+    bottom: 2px;
+    right: 192px;
     font-size: 4rem;
     color: rgba(255, 255, 255, 0.1);
     font-family: var(--font-heading);
