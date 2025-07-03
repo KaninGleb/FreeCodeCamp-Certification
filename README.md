@@ -38,7 +38,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 9. **Quiz** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-2/04-Quiz/)
 
-10. **Martin Fowler's - Tribute Page** <br/>
+10. **Martin Fowler's - Tribute Page** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-2/05-Tribute-Page/)
 
 11. **Balance Sheet** <br/>
