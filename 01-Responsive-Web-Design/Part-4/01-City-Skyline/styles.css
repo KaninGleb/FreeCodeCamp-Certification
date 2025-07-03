@@ -225,11 +225,20 @@ body {
 .fb4 {
     width: 8%;
     height: 45%;
-    background-color: var(--building-color1);
     position: relative;
     left: 10%;
 }
 
+.fb4b {
+    width: 100%;
+    height: 89%;
+    background-color: var(--building-color1);
+}
+.fb4-window {
+    width: 30%;
+    height: 10%;
+    border-radius: 50%;
+}
 .fb5 {
     width: 10%;
     height: 33%;
