@@ -7,6 +7,8 @@
 </head>
 
 <body>
+<button id="toggleTheme">Switch the theme</button>
+<div class="resizable-container">
 <div class="background-buildings sky">
     <div></div>
     <div></div>
@@ -79,5 +81,14 @@
     <div></div>
     <div></div>
 </div>
+</div>
 </body>
+
+<script>
+  const container = document.querySelector('.resizable-container');
+
+  document.getElementById("toggleTheme").addEventListener("click", () => {
+    container.classList.toggle("dark-mode");
+  });
+</script>
 </html>
