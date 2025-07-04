@@ -54,7 +54,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-4/01-City-Skyline/)
 
 16. **Portfolio Webpage** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-5/03-Portfolio-Webpage/)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-5/03-Portfolio-Webpage/) / [My current Portfolio](https://super-portfolio-tau.vercel.app/#/) 
+
+
 
 </details>
 
