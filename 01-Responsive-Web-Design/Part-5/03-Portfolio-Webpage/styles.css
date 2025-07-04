@@ -5,6 +5,10 @@
     font-family: 'Arial', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #333;
     line-height: 1.6;
