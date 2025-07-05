@@ -97,7 +97,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    </summary>
    
    ![Visualization Certificate](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.png)  
-   ### 📥 Download the Data Visualization Certificate - [Click here to download](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.pdf)
+   ### 📥 Download the Front End Development Libraries Certificate - [Click here to download](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.pdf)
    <br/>
 </details>
 
