@@ -91,6 +91,16 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    <h3>:atom_symbol: $\textsf{\color{#ffcc00}{Front End Development Libraries}}$</h3>
 </summary>
 
+<details>
+   <summary>
+      <h4>:trophy: View Certificate</h3>
+   </summary>
+   
+   ![Visualization Certificate](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.png)  
+   ### 📥 Download the Data Visualization Certificate - [Click here to download](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.pdf)
+   <br/>
+</details>
+
 1. **Cat Photo App - with Bootstrap** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/03-Front-End-Development-Libraries/01-Bootstrap/01-CatPhotoApp)
 
@@ -136,7 +146,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    </summary>
    
    ![Visualization Certificate](assets/certificates/Data-Visualization/Data-Visualization.png)  
-   ### 📥 Download the Visualization Certificate - [Click here to download](assets/certificates/Data-Visualization/Data-Visualization.pdf)
+   ### 📥 Download the Data Visualization Certificate - [Click here to download](assets/certificates/Data-Visualization/Data-Visualization.pdf)
    <br/>
 </details>
    
