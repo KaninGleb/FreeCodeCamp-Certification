@@ -50,7 +50,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 14. **Piano** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/03-Piano/)
 
-15. **Technical Documentation Page** <br/>
+15. **Technical Documentation Page** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/04-Technical-Documentation-Page/)
 
 16. **City Skyline** <br/>
