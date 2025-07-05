@@ -135,8 +135,8 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
       <h4>:trophy: View Certificate</h3>
    </summary>
    
-   ![Visualization Certificate](./assets/certificates/data-visualization/data-visualization.png)  
-   ### 📥 Download the Visualization Certificate - [Click here to download](./assets/certificates/data-visualization/data-visualization.pdf)
+   ![Visualization Certificate](assets/certificates/Data-Visualization/Data-Visualization.png)  
+   ### 📥 Download the Visualization Certificate - [Click here to download](assets/certificates/Data-Visualization/Data-Visualization.pdf)
    <br/>
 </details>
    
@@ -293,8 +293,8 @@ This repository showcases my learning journey through FreeCodeCamp, featuring a 
       <h4>:trophy: View Certificate</h3>
    </summary>
    
-   ![Visualization Certificate](./assets/certificates/data-visualization/data-visualization.png)  
-   ### 📥 Download the Visualization Certificate - [Click here to download](./assets/certificates/data-visualization/data-visualization.pdf)
+   ![Visualization Certificate](./assets/certificates/Data-Visualization/Data-Visualization.png)  
+   ### 📥 Download the Visualization Certificate - [Click here to download](./assets/certificates/Data-Visualization/Data-Visualization.pdf)
    <br/>
 </details>
    
