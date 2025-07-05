@@ -74,12 +74,13 @@ body {
 .main-section code {
     display: block;
     background-color: #f8f9fa;
-    padding: 15px;
+    padding: 8px 15px;
     margin: 10px 0;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     white-space: pre-wrap;
     line-height: 1.4;
+    tab-size: 2;
 }
 
 .main-section ul {
