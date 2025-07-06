@@ -54,23 +54,22 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 11. **Balance Sheet** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/01-Balance-Sheet/)
 
-13. **Cat Painting** <br/>
+12. **Cat Painting** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/02-Cat-Painting/)
 
-14. **Piano** <br/>
+13. **Piano** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/03-Piano/)
 
-15. **Technical Documentation Page** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+14. **Technical Documentation Page** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-3/04-Technical-Documentation-Page/)
 
-16. **City Skyline** <br/>
+15. **City Skyline** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-4/01-City-Skyline/)
 
 
 
-18. **Product Landing Page** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
+17. **Product Landing Page** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-4/03-Product-Landing-Page/)
-
 
 
 
