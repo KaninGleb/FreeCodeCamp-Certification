@@ -58,7 +58,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 
 
-18. **Product Landing Page** <br/>
+18. **Product Landing Page** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-4/03-Product-Landing-Page/)
 
 
