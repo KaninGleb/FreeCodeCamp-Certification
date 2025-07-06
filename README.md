@@ -10,6 +10,16 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 <summary>
    <h3>:globe_with_meridians: $\textsf{\color{#ffcc00}{HTML and CSS Projects}}$</h3>
 </summary>
+
+<details>
+   <summary>
+      <h4>:trophy: View Certificate</h3>
+   </summary>
+   
+   ![Responsive Web Design Certificate](assets/certificates/Front-End-Development-Libraries/Responsive-Web-Design.png)  
+   ### 📥 Download the Responsive Web Design Certificate - [Click here to download](assets/certificates/Responsive-Web-Design/Responsive-Web-Design.pdf)
+   <br/>
+</details>
    
 1. **Cat Photo App** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-1/01-Cat-Photo-App)
@@ -104,7 +114,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
       <h4>:trophy: View Certificate</h3>
    </summary>
    
-   ![Visualization Certificate](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.png)  
+   ![Front End Development Libraries Certificate](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.png)  
    ### 📥 Download the Front End Development Libraries Certificate - [Click here to download](assets/certificates/Front-End-Development-Libraries/Front-End-Development-Libraries.pdf)
    <br/>
 </details>
