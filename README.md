@@ -16,7 +16,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
       <h4>:trophy: View Certificate</h3>
    </summary>
    
-   ![Responsive Web Design Certificate](assets/certificates/Front-End-Development-Libraries/Responsive-Web-Design.png)  
+   ![Responsive Web Design Certificate](assets/certificates/Responsive-Web-Design/Responsive-Web-Design.png)  
    ### 📥 Download the Responsive Web Design Certificate - [Click here to download](assets/certificates/Responsive-Web-Design/Responsive-Web-Design.pdf)
    <br/>
 </details>
