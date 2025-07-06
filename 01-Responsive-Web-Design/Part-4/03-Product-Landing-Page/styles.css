@@ -39,7 +39,8 @@ body {
 }
 
 #header-img {
-    height: 50px;
+    width: 50px;
+    height: 100%;
 }
 
 #nav-bar ul {
