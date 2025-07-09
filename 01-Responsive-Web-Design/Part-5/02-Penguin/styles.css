@@ -32,7 +32,10 @@ body {
     width: 200px;
     height: 200px;
     background-color: yellow;
-
+    position: absolute;
+    border-radius: 50%;
+    top: -75px;
+    right: -75px;
 }
 
 .penguin {
@@ -40,6 +43,19 @@ body {
     height: 300px;
     margin: auto;
     margin-top: 75px;
+    z-index: 4;
+    position: relative;
+}
+
+.penguin-head {
+    width: 50%;
+    height: 45%;
+    background: linear-gradient(
+            45deg,
+            gray,
+            rgb(239, 240, 228)
+    );
+
 }
 
 .ground {
