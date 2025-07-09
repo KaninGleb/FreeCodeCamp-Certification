@@ -65,6 +65,13 @@ body {
     z-index: 1;
 }
 
+.face {
+    width: 60%;
+    height: 70%;
+    background-color: white;
+
+}
+
 .penguin-body {
     width: 53%;
     height: 45%;
@@ -85,7 +92,10 @@ body {
     width: 50%;
     height: 45%;
     background-color: gray;
-
+    top: 10%;
+    left: 25%;
+    border-radius: 0% 0% 100% 100%;
+    opacity: 70%;
 }
 
 .ground {
