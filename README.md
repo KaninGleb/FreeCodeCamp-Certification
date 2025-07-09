@@ -76,7 +76,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-5/01-Ferris-Wheel/)
 
 19. **Penguin** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-5/01-Ferris-Wheel/)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-5/02-Penguin/)
 
 20. **Portfolio Webpage** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/01-Responsive-Web-Design/Part-5/03-Portfolio-Webpage/) / [View my current Portfolio](https://super-portfolio-tau.vercel.app/#/) 
