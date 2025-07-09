@@ -62,6 +62,7 @@ body {
     border-radius: 70% 70% 65% 65%;
     top: 10%;
     left: 25%;
+    z-index: 1;
 }
 
 .penguin-body {
@@ -74,6 +75,16 @@ body {
             white 67%
     );
     border-radius: 80% 80% 100% 100%;
+    top: 40%;
+    left: 23.5%;
+}
+
+.penguin-body::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 45%;
+    background-color: gray;
 
 }
 
