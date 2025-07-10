@@ -1,3 +1,7 @@
+:root {
+    --penguin-face: white;
+}
+
 body {
     background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
     margin: 0;
@@ -68,7 +72,7 @@ body {
 .face {
     width: 60%;
     height: 70%;
-    background-color: white;
+    background-color: var(--penguin-face);
     border-radius: 70% 70% 60% 60%;
     top: 15%;
 }
@@ -79,6 +83,15 @@ body {
 
 .face.right {
     right: 5%;
+}
+
+.chin {
+    width: 90%;
+    height: 70%;
+    background-color: var(--penguin-face);
+    top: 25%;
+    left: 5%;
+    border-radius: 70% 70% 100% 100%;
 }
 
 .penguin-body {
