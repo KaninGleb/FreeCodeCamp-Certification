@@ -153,6 +153,15 @@ body {
     left: 42%;
 }
 
+.shirt {
+    font: bold 25px Helvetica, sans-serif;
+}
+
+.shirt div {
+    font-weight: initial;
+
+}
+
 .penguin-body {
     width: 53%;
     height: 45%;
