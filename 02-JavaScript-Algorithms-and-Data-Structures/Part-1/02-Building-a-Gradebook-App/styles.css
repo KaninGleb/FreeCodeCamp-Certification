@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #3498db;
+    --success-color: #2ecc71;
+    --danger-color: #e74c3c;
+    --dark-color: #34495e;
+    --light-color: #f9f9f9;
+    --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: var(--dark-color);
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.grades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.grade-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s;
+}
+
+.grade-card:hover {
+    transform: translateY(-5px);
+}
+
+.score {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.grade {
+    color: var(--success-color);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.passing {
+    color: var(--danger-color);
+    font-style: italic;
+}
+
+.passing.yes {
+    color: var(--success-color);
+}
+
+.final-message {
+    background: var(--dark-color);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #controls {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    }
+}
