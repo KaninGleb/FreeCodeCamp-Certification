@@ -57,6 +57,8 @@ body {
     position: absolute;
 }
 
+
+
 .penguin-head {
     width: 50%;
     height: 45%;
@@ -212,6 +214,7 @@ body {
     left: 5%;
     transform-origin: top left;
     transform: rotate(130deg) scaleX(-1);
+    animation: 3s linear infinite wave;
 }
 
 .arm.right {
@@ -221,7 +224,18 @@ body {
 }
 
 @keyframes wave {
-
+    10% {
+        transform: rotate(110deg) scaleX(-1);
+    }
+    20% {
+        transform: rotate(130deg) scaleX(-1);
+    }
+    30% {
+        transform: rotate(110deg) scaleX(-1);
+    }
+    40% {
+        transform: rotate(130deg) scaleX(-1);
+    }
 }
 
 .foot {
