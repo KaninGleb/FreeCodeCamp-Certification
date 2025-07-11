@@ -47,8 +47,7 @@ body {
 .penguin {
     width: 300px;
     height: 300px;
-    margin: auto;
-    margin-top: 75px;
+    margin: 75px auto auto;
     z-index: 4;
     position: relative;
     transition: transform 1s ease-in-out 0ms;
@@ -170,7 +169,7 @@ body {
 }
 
 .shirt div {
-    font-weight:  initial;
+    font-weight: initial;
     top: 22.5px;
     left: 12px;
 }
@@ -243,7 +242,7 @@ body {
 }
 
 .foot {
-    width:  15%;
+    width: 15%;
     height: 30%;
     background-color: var(--penguin-picorna);
     top: 85%;
