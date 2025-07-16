@@ -22,6 +22,23 @@ const weapons = [
   { name: 'claw hammer', power: 50 },
   { name: 'sword', power: 100 }
 ];
+const monsters = [
+  {
+    name: "slime",
+    level: 2,
+    health: 15
+  },
+  {
+    name: "fanged beast",
+    level: 8,
+    health: 60
+  },
+  {
+    name: "dragon",
+    level: 20,
+    health: 300
+  }
+]
 const locations = [
   {
     name: "town square",
@@ -70,10 +87,6 @@ function goCave() {
   update(locations[2]);
 }
 
-function fightDragon() {
-  console.log("Fighting dragon.");
-}
-
 function buyHealth() {
   if (gold >= 10) {
     gold -= 10;
@@ -109,7 +122,11 @@ function sellWeapon() {
   if (inventory.length > 1) {
     gold += 15;
     goldText.innerText = gold;
-    let currentWeapon;
+    let currentWeapon = inventory.shift();
+    text.innerText = "You sold a " + currentWeapon + ".";
+    text.innerText += " In your inventory you have: " + inventory;
+  } else {
+    text.innerText = "Don't sell your only weapon!";
   }
 }
 
@@ -120,3 +137,8 @@ function fightSlime() {
 function fightBeast() {
 
 }
+
+function fightDragon() {
+  console.log("Fighting dragon.");
+}
+
