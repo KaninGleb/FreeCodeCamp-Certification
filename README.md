@@ -96,6 +96,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 2. **Gradebook App** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/02-Building-a-Gradebook-App)
 
+3. **Role Playing Game** <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/03-Role-Playing-Game)
+
 4. **Random Background Color Changer** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/04-Debugging-by-Building-a-Random-Background-Color-Changer)
 
