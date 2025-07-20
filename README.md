@@ -91,10 +91,10 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 </summary>
 
 1. **Pyramid Generator** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/01-Building-a-Pyramid-Generator)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/01-Pyramid-Generator)
 
 2. **Gradebook App** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/02-Building-a-Gradebook-App)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/02-Gradebook-App)
 
 3. **Role Playing Game** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/03-Role-Playing-Game)
@@ -106,7 +106,7 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/05-Calorie-Counter)
 
 6. **Rock, Paper, Scissors Game** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/06-Rock-Paper-Scissors-Game)
    
 </details>
 
