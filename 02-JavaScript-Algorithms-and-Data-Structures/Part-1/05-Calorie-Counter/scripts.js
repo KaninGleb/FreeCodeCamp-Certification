@@ -29,7 +29,15 @@ function addEntry() {
     id="${entryDropdown.value}-${entryNumber}-calories"
     placeholder="Calories"
   />`;
-  targetInputContainer.insertAdjacentHTML();
+  targetInputContainer.insertAdjacentHTML('beforeend', HTMLString);
+}
+
+function getCaloriesFromInputs(list) {
+  let calories = 0;
+
+  for (const item of list) {
+    const currVal = item.value;
+  }
 }
 
 addEntryButton.addEventListener("click", addEntry);
