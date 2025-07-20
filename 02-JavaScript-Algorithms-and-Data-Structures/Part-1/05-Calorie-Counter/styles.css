@@ -1,72 +1,191 @@
 :root {
-    --light-grey: #f5f6f7;
-    --dark-blue: #0a0a23;
-    --fcc-blue: #1b1b32;
-    --light-yellow: #fecc4c;
-    --dark-yellow: #feac32;
-    --light-pink: #ffadad;
-    --dark-red: #850000;
-    --light-green: #acd157;
+    --bg-color: #1a1a2e;
+    --card-color: #16213e;
+    --primary-color: #0f3460;
+    --accent-color: #e94560;
+    --text-color: #e0e0e0;
+    --label-color: #c0c0c0;
+    --border-color: #4a4a58;
+    --input-bg-color: #2a2a3e;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: var(--font-family);
     font-size: 18px;
-    background-color: var(--fcc-blue);
-    color: var(--light-grey);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
+    color: var(--text-color);
+    margin-bottom: .5rem;
+    font-weight: 600;
 }
 
 .container {
     width: 90%;
     max-width: 680px;
+    margin: 0 auto;
 }
 
-h1,
-.container,
+main > .container,
 .output {
     margin: 20px auto;
 }
 
-label,
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+label {
+    font-weight: 500;
+    color: var(--label-color);
+    display: block;
+}
+
 legend {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    min-height: 48px;
+    padding: 10px;
+    background-color: var(--input-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+select:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(233, 69, 96, 0.3);
+}
+
+::placeholder {
+    color: var(--label-color);
+    opacity: 0.7;
+}
+
+fieldset {
+    border: none;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    padding: 16px;
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
-button {
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.controls span {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+button,
+button[type="button"],
+button[type="submit"] {
     cursor: pointer;
     text-decoration: none;
-    background-color: var(--light-yellow);
-    border: 2px solid var(--dark-yellow);
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-button,
-input,
-select {
-    min-height: 24px;
-    color: var(--dark-blue);
+#add-entry {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid var(--accent-color);
 }
 
-fieldset,
-label,
-button,
-input,
-select {
-    margin-bottom: 10px;
+#add-entry:hover {
+    background-color: #1a4a8a;
+}
+
+button[type="submit"] {
+    background-color: var(--accent-color);
+    color: white;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #d63c56;
+}
+
+#clear {
+    background-color: transparent;
+    color: var(--label-color);
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+#clear:hover {
+    background-color: var(--input-bg-color);
+    color: var(--text-color);
+}
+
+.buttons-container {
+    display: flex;
+    gap: 14px;
+}
+
+.buttons-container button[type="submit"] {
+    flex: 5;
+}
+
+.buttons-container button[type="button"] {
+    flex: 1;
 }
 
 .output {
-    border: 2px solid var(--light-grey);
-    padding: 10px;
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    padding: 25px;
+    border-radius: 12px;
     text-align: center;
+    line-height: 1.6;
 }
 
 .hide {
@@ -75,13 +194,22 @@ select {
 
 .output span {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.output hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 20px 0;
 }
 
 .surplus {
-    color: var(--light-pink);
+    color: var(--error-color);
 }
 
 .deficit {
-    color: var(--light-green);
+    color: var(--success-color);
 }
