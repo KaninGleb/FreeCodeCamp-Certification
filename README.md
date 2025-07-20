@@ -100,7 +100,10 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/03-Role-Playing-Game)
 
 4. **Random Background Color Changer** <br/>
-   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/04-Debugging-by-Building-a-Random-Background-Color-Changer)
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/04-Random-Background-Color-Changer)
+
+5. **Calorie Counter** <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/05-Calorie-Counter)
 
 6. **Rock, Paper, Scissors Game** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-1/06-Building-a-Rock-Paper-Scissors-Game)
