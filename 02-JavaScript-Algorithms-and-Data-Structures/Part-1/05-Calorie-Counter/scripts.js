@@ -7,7 +7,7 @@ const output = document.getElementById('output');
 let isError = false;
 
 function cleanInputString(str) {
-  const regex = /[+-\s]/g;
+  const regex = /[+\s-]/g;
   return str.replace(regex, '');
 }
 
@@ -98,4 +98,4 @@ function clearForm() {
 
 addEntryButton.addEventListener("click", addEntry);
 calorieCounter.addEventListener("submit", calculateCalories);
-clearButton .addEventListener("click", clearForm );
+clearButton.addEventListener("click", clearForm);
