@@ -1,154 +1,64 @@
 *,
 *::before,
 *::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 :root {
-    --dark-bg: #12142b;
-    --accent-yellow: #f1be32;
-    --text-light: #f0f0f5;
-    --text-dark: #22223b;
-    --select-bg: #ffffff;
-    --select-hover-bg: #f9f9f9;
-    --shadow: rgba(0, 0, 0, 0.15);
+    --dark-grey: #0a0a23;
+    --light-grey: #f5f6f7;
+    --white: #ffffff;
+    --black: #000;
 }
 
 body {
-    color: var(--text-light);
-    background: var(--dark-bg);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-}
-
-main {
-    width: 100%;
-    max-width: 570px;
-    background: linear-gradient(145deg, #1b1c3a, #14152d);
-    border-radius: 16px;
-    box-shadow: 6px 6px 16px var(--shadow),
-    -6px -6px 16px #1f2142;
-    padding: 2.5rem 2rem 3rem;
+    background-color: var(--dark-grey);
     text-align: center;
+    padding: 10px;
 }
 
-.title-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 1.5rem;
+.title,
+.options-label,
+.team-stats,
+footer {
+    color: var(--white);
 }
 
 .title {
-    font-size: 2.75rem;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    color: var(--accent-yellow);
-    text-shadow: 0 0 6px #f1be32aa;
+    margin: 1.3rem 0;
 }
 
-.date-svg {
-    width: 36px;
-    height: 36px;
-    filter: drop-shadow(0 0 1.5px #f1be32cc);
-    transition: transform 0.3s ease;
+.team-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    margin: 1.2rem 0;
 }
 
-.title-container:hover .date-svg {
-    transform: rotate(15deg);
+.options-label {
+    font-size: 1.2rem;
 }
 
-.divider {
-    margin: 0 auto 2.5rem;
-    width: 130px;
-    height: 6px;
-    border-radius: 12px;
-    background: linear-gradient(90deg, #f1be32, #e6d85c);
-    box-shadow: 0 2px 8px #f1be32bb;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.dropdown-container {
-    position: relative;
-    width: 100%;
-    margin: 0 auto 2rem;
+.player-card {
+    background-color: var(--light-grey);
+    padding: 1.3rem;
+    margin: 1.2rem;
+    width: 300px;
+    border-radius: 15px;
 }
 
-select {
-    width: 100%;
-    padding: 14px 48px 14px 18px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    background-color: var(--select-bg);
-    border-radius: 12px;
-    border: 2px solid transparent;
-    box-shadow: inset 0 1px 3px #ccc,
-    0 2px 8px var(--shadow);
-    appearance: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-select:hover,
-select:focus {
-    background-color: var(--select-hover-bg);
-    border-color: var(--accent-yellow);
-    box-shadow: 0 0 8px var(--accent-yellow);
-    outline: none;
-}
-
-.select-icon {
-    position: absolute;
-    top: 50%;
-    right: 16px;
-    width: 24px;
-    height: 24px;
-    pointer-events: none;
-    transform: translateY(-50%);
-}
-
-.select-icon svg.icon {
-    fill: var(--text-dark);
-    transition: fill 0.3s ease;
-}
-
-select:hover + .select-icon svg.icon,
-select:focus + .select-icon svg.icon {
-    fill: var(--accent-yellow);
-}
-
-#current-date {
-    font-size: 2.25rem;
-    font-weight: 600;
-    color: var(--text-light);
-    text-shadow: 0 0 5px #f1be32cc;
-    user-select: none;
-}
-
-@media (max-width: 375px) {
-    main {
-        padding: 2rem 1.2rem 2.5rem;
-    }
-
-    .title {
-        font-size: 2rem;
-    }
-
-    .date-svg {
-        display: none;
-    }
-
-    .dropdown-container {
-        width: 100%;
+@media (max-width: 768px) {
+    .team-stats {
+        flex-direction: column;
     }
 }
