@@ -4,6 +4,7 @@ const worldCupYear = document.getElementById("year");
 const headCoach = document.getElementById("head-coach");
 const playerCards = document.getElementById("player-cards");
 const playersDropdownList = document.getElementById("players");
+
 const myFavoriteFootballTeam = {
   team: "Argentina",
   sport: "Football",
@@ -204,19 +205,23 @@ playersDropdownList.addEventListener("change", (e) => {
     case "nickname":
       setPlayerCards(players.filter((player) => player.nickname !== null));
       break;
+      
     case "forward":
       setPlayerCards(players.filter((player) => player.position === "forward"));
       break;
+
     case "midfielder":
       setPlayerCards(
         players.filter((player) => player.position === "midfielder")
       );
       break;
+      
     case "defender":
       setPlayerCards(
         players.filter((player) => player.position === "defender")
       );
       break;
+
     case "goalkeeper":
       setPlayerCards(
         players.filter((player) => player.position === "goalkeeper")
@@ -224,7 +229,7 @@ playersDropdownList.addEventListener("change", (e) => {
       break;
 
     default:
-      setPlayerCards()
+      setPlayerCards();
 
   }
 });
