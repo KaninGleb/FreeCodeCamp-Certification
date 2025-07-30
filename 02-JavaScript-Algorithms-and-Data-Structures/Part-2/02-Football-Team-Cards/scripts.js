@@ -172,8 +172,8 @@ const myFavoriteFootballTeam = {
 };
 
 Object.freeze(myFavoriteFootballTeam);
-const { sport, team, year, players } = myFavoriteFootballTeam;
-const { coachName } = myFavoriteFootballTeam.headCoach;
+const {sport, team, year, players} = myFavoriteFootballTeam;
+const {coachName} = myFavoriteFootballTeam.headCoach;
 
 typeOfSport.textContent = sport;
 teamName.textContent = team;
@@ -183,7 +183,7 @@ headCoach.textContent = coachName;
 const setPlayerCards = (arr = players) => {
   playerCards.innerHTML += arr
     .map(
-      ({ name, position, number, isCaptain, nickname }) => {
+      ({name, position, number, isCaptain, nickname}) => {
         return `
         <div class="player-card">
           <h2>${isCaptain ? "(Captain)" : ""} ${name}</h2>
@@ -191,7 +191,8 @@ const setPlayerCards = (arr = players) => {
           <p>Number: ${number}</p>
           <p>Nickname: ${nickname !== null ? nickname : "N/A"}</p>
         </div>
-      ` }
+      `
+      }
     )
     .join("");
 };
@@ -203,9 +204,27 @@ playersDropdownList.addEventListener("change", (e) => {
     case "nickname":
       setPlayerCards(players.filter((player) => player.nickname !== null));
       break;
+    case "forward":
+      setPlayerCards(players.filter((player) => player.position === "forward"));
+      break;
+    case "midfielder":
+      setPlayerCards(
+        players.filter((player) => player.position === "midfielder")
+      );
+      break;
+    case "defender":
+      setPlayerCards(
+        players.filter((player) => player.position === "defender")
+      );
+      break;
+    case "goalkeeper":
+      setPlayerCards(
+        players.filter((player) => player.position === "goalkeeper")
+      );
+      break;
 
-
-
+    default:
+      setPlayerCards()
 
   }
 });
