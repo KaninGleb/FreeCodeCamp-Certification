@@ -116,6 +116,9 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 10. **Football Team Cards** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-2/02-Football-Team-Cards)
+
+11. **Todo App** <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-2/03-Todo-App)
    
 </details>
 
