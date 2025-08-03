@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Learn Regular Expressions by Building a Spam Filter</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Spam Filter</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 
 <body>
-<header class="main-text">
-    <h1 class="title">Is this Spam?</h1>
-    <p class="description">
-        Enter a phrase to check if it would be marked as spam or not.
-    </p>
-</header>
+    <div class="container">
+        <header>
+            <h1>Is this Spam?</h1>
+            <p>Enter a message to find out if it might be spam.</p>
+        </header>
 
-<main>
-    <label class="message-label" for="message-input">Message: </label>
-    <textarea
-            placeholder="Enter message here"
-            value=""
-            type="text"
-            name="message"
-            id="message-input"
-            rows="10"
-            cols="40"
-    ></textarea>
-    <button class="btn" id="check-message-btn" type="button">
-        Check message
-    </button>
-    <p id="result"></p>
-</main>
+        <main>
+            <label for="message-input">Your message:</label>
+            <textarea
+                    id="message-input"
+                    placeholder="Type your message here..."
+                    rows="6"
+            ></textarea>
+            <p id="error-msg" class="error-msg"></p>
+            <button id="check-message-btn">Check Message</button>
+            <p id="result" class="result"></p>
+        </main>
 
-<footer class="footer">&copy; freeCodeCamp</footer>
-<script src="./script.js"></script>
+        <footer>&copy; freeCodeCamp</footer>
+    </div>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
