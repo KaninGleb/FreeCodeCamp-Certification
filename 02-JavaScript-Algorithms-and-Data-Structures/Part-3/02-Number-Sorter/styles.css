@@ -1,14 +1,15 @@
 :root {
     --gray-00: #ffffff;
-    --gray-05: #f5f6f7;
-    --gray-15: #d0d0d5;
-    --gray-75: #3b3b4f;
-    --gray-85: #1b1b32;
-    --gray-90: #0a0a23;
-    --blue-50: #198eee;
-    --error: #a94442;
-    --danger-color: #850000;
-    --danger-background: #ffadad;
+    --gray-05: #f8f9fa;
+    --gray-15: #dee2e6;
+    --gray-75: #343a40;
+    --gray-85: #212529;
+    --gray-90: #121416;
+    --blue-50: #4dabf7;
+    --error: #e03131;
+    --danger-color: #a61e4d;
+    --danger-background: #ffe3e3;
+    --accent-gradient: linear-gradient(135deg, #4dabf7, #228be6);
 }
 
 *,
@@ -20,39 +21,56 @@
 }
 
 body {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Inter", "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-color: var(--gray-85);
+    background: radial-gradient(circle at top, var(--gray-85), var(--gray-90));
     color: var(--gray-05);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    width: 100%;
 }
 
 h1 {
-    margin: 30px auto;
-}
-
-h2 {
-    margin-bottom: 15px;
+    margin: 20px auto 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 form {
     width: 100%;
+    max-width: 480px;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 
 fieldset {
-    border: 0 none;
-    height: 100%;
-    margin: auto;
+    border: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 fieldset div {
@@ -63,77 +81,94 @@ fieldset div {
 
 .bracket,
 .comma {
-    font-size: 2.3em;
-}
-
-form .comma {
-    margin-left: 2px;
+    font-size: 2rem;
+    color: var(--gray-15);
 }
 
 select {
     font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    height: 38px;
-    width: 50px;
+    font-size: 1rem;
+    height: 40px;
+    width: 55px;
     text-align: center;
+    border-radius: 8px;
+    border: 1px solid var(--gray-15);
+    background: var(--gray-00);
+    color: var(--gray-85);
+    transition: all 0.2s ease-in-out;
+}
+
+select:hover {
+    border-color: var(--blue-50);
+    box-shadow: 0 0 0 3px rgba(77, 171, 247, 0.3);
+}
+
+select:focus-visible {
+    outline: none;
+    border-color: var(--blue-50);
+    box-shadow: 0 0 0 3px rgba(77, 171, 247, 0.5);
 }
 
 button {
     cursor: pointer;
-    margin-top: 15px;
-    text-decoration: none;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
-    padding: 10px 16px;
-    font-size: 23px;
+    margin-top: 20px;
+    background: var(--accent-gradient);
+    border: none;
+    padding: 12px 18px;
+    font-size: 1.1rem;
     width: 100%;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+    font-weight: 600;
+    letter-spacing: 0.3px;
 }
 
-select:focus-visible,
-button:focus-visible {
-    outline: 3px solid var(--blue-50);
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(34, 139, 230, 0.4);
+}
+
+button:active {
+    transform: translateY(0px);
+    box-shadow: 0 6px 15px rgba(34, 139, 230, 0.4);
 }
 
 .output-container {
-    width: 95%;
-    min-height: 55px;
+    width: 100%;
+    max-width: 480px;
     margin-top: 25px;
-    border-radius: 0;
-    padding: 15px;
-    overflow-wrap: break-word;
+    padding: 20px;
+    border-radius: 16px;
     text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
 }
 
 .output-array {
-    width: 100%;
-    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
 .output-value {
-    font-size: 2em;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--blue-50);
 }
 
 .alert {
     background-color: var(--danger-background);
-    border: 3px solid var(--danger-color);
+    border: 2px solid var(--danger-color);
     color: var(--danger-color);
+    border-radius: 10px;
+    padding: 10px;
 }
 
-@media (min-width: 550px) {
-    form,
-    .output-container {
-        max-width: 480px;
-    }
-
+@media (max-width: 550px) {
     fieldset {
-        max-width: 400px;
-    }
-
-    .output-array {
-        max-width: 420px;
+        justify-content: center;
     }
 }
