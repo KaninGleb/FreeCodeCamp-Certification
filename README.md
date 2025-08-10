@@ -119,7 +119,10 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 
 11. **Todo App** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-2/03-Todo-App)
-   
+
+11. **Number Sorter** <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-3/02-Number-Sorter)
+
 </details>
 
 
