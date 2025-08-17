@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Creature Database</title>
+</head>
+
+<body>
+<h1>Creature Database</h1>
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Enter creature name or ID..." required>
+    <button id="search-button">Search</button>
+</div>
+
+<div class="creature-card">
+    <div class="creature-header">
+        <h2 id="creature-name">-</h2>
+        <span id="creature-id">#-</span>
+    </div>
+
+    <div class="creature-image">Image Not Available</div>
+
+    <div class="creature-details">
+        <div class="detail-item">
+            <span class="detail-label">Height:</span>
+            <span class="detail-value" id="height">-</span>
+        </div>
+        <div class="detail-item">
+            <span class="detail-label">Weight:</span>
+            <span class="detail-value" id="weight">-</span>
+        </div>
+    </div>
+
+    <div class="types-container" id="types">
+        <!-- Types will be added here dynamically -->
+    </div>
+
+    <div class="stats-container">
+        <div class="stats-title">Base Stats</div>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-label">HP</div>
+                <div class="stat-value" id="hp">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Attack</div>
+                <div class="stat-value" id="attack">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Defense</div>
+                <div class="stat-value" id="defense">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Sp. Attack</div>
+                <div class="stat-value" id="special-attack">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Sp. Defense</div>
+                <div class="stat-value" id="special-defense">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Speed</div>
+                <div class="stat-value" id="speed">-</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
