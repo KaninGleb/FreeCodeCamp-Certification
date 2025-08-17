@@ -2,6 +2,21 @@ document.addEventListener('DOMContentLoaded', function () {
   const searchInput = document.getElementById('search-input');
   const searchButton = document.getElementById('search-button');
   const messageContainer = document.getElementById('message-container');
+  const creatureCard = document.getElementById('creature-card');
+
+  const creatureElements = {
+    name: document.getElementById('creature-name'),
+    id: document.getElementById('creature-id'),
+    types: document.getElementById('types'),
+    specialName: document.getElementById('special-name'),
+    specialDescription: document.getElementById('special-description'),
+    hp: document.getElementById('hp'),
+    attack: document.getElementById('attack'),
+    defense: document.getElementById('defense'),
+    specialAttack: document.getElementById('special-attack'),
+    specialDefense: document.getElementById('special-defense'),
+    speed: document.getElementById('speed'),
+  };
 
   const API_URL = 'https://rpg-creature-api.freecodecamp.rocks/api/creature/';
 
@@ -15,111 +30,87 @@ document.addEventListener('DOMContentLoaded', function () {
   async function fetchCreatureData() {
     const creatureId = searchInput.value.trim();
 
-    if (!creatureId) {
-      displayMessage('Please enter a creature ID.', true);
-      return;
-    }
-
-    const id = parseInt(creatureId, 10);
-    if (isNaN(id) || id < 1 || id > 20) {
-      displayMessage('Please enter a valid ID between 1 and 20.', true);
+    if (!creatureId || creatureId < 1 || creatureId > 20) {
+      displayMessage('Please enter a creature ID (1-20).');
+      hideCard();
       return;
     }
 
     clearMessage();
 
     try {
-      const response = await fetch(`${API_URL}${id}`);
-      if (!response.ok) {
+      const res = await fetch(`${API_URL}${creatureId}`);
+      if (!res.ok) {
         throw new Error(`Creature with ID ${id} not found.`);
       }
-      const creatureData = await response.json();
+      const creatureData = await res.json();
       displayCreature(creatureData);
     } catch (error) {
-      displayMessage(error.message, true);
-      resetCard();
+      displayMessage(error.message);
+      hideCard();
     }
   }
 
   function displayCreature(creature) {
-    // Проверяем наличие основных данных
     if (!creature || !creature.stats || !Array.isArray(creature.stats)) {
-      displayMessage('Received invalid data from the server.', true);
-      resetCard();
+      displayMessage('Received invalid data from the server.');
+      hideCard();
       return;
     }
 
-    document.getElementById('creature-name').textContent = creature.name || '-';
-    document.getElementById('creature-id').textContent = `#${creature.id || '-'}`;
-    document.getElementById('weight').textContent = creature.weight || '-';
-    document.getElementById('height').textContent = creature.height || '-';
+    creatureElements.name.textContent = creature.name;
+    creatureElements.id.textContent = `#${String(creature.id).padStart(3, '0')}`;
 
-    // Отображение изображения
-    const imageElement = document.getElementById('creature-image');
-    const imagePlaceholder = document.getElementById('image-placeholder');
-    if (creature.image) {
-      imageElement.src = creature.image;
-      imageElement.style.display = 'block';
-      imagePlaceholder.style.display = 'none';
-    } else {
-      imageElement.style.display = 'none';
-      imagePlaceholder.style.display = 'block';
+    if (creature.special) {
+      creatureElements.specialName.textContent = creature.special.name;
+      creatureElements.specialDescription.textContent = creature.special.description;
     }
 
-    // *** ГЛАВНОЕ ИЗМЕНЕНИЕ: Преобразование массива статов в объект ***
+    creatureElements.types.innerHTML = '';
+    creature.types.forEach(typeObj => {
+      const typeElement = document.createElement('span');
+      typeElement.textContent = typeObj.name;
+      typeElement.className = `type-badge type-${typeObj.name.toLowerCase()}`;
+      creatureElements.types.appendChild(typeElement);
+    });
+
     const statsObject = creature.stats.reduce((acc, stat) => {
-      // Ключом объекта будет имя стата (stat.name), значением - его показатель (stat.base_stat)
       acc[stat.name] = stat.base_stat;
       return acc;
     }, {});
 
-    // Теперь используем созданный объект для заполнения полей
-    document.getElementById('hp').textContent = statsObject.hp ?? '-';
-    document.getElementById('attack').textContent = statsObject.attack ?? '-';
-    document.getElementById('defense').textContent = statsObject.defense ?? '-';
-    document.getElementById('special-attack').textContent = statsObject['special-attack'] ?? '-';
-    document.getElementById('special-defense').textContent = statsObject['special-defense'] ?? '-';
-    document.getElementById('speed').textContent = statsObject.speed ?? '-';
+    creatureElements.hp.textContent = statsObject.hp ?? '-';
+    creatureElements.attack.textContent = statsObject.attack ?? '-';
+    creatureElements.defense.textContent = statsObject.defense ?? '-';
+    creatureElements.specialAttack.textContent = statsObject['special-attack'] ?? '-';
+    creatureElements.specialDefense.textContent = statsObject['special-defense'] ?? '-';
+    creatureElements.speed.textContent = statsObject.speed ?? '-';
 
-
-    // *** ИЗМЕНЕНИЕ ДЛЯ ТИПОВ ***
-    const typesContainer = document.getElementById('types');
-    typesContainer.innerHTML = ''; // Очистка предыдущих типов
-
-    if (creature.types && Array.isArray(creature.types)) {
-      creature.types.forEach(typeObj => { // typeObj - это { name: "fire" }
-        const typeElement = document.createElement('span');
-        // Используем свойство .name из объекта
-        typeElement.textContent = typeObj.name;
-        typeElement.className = `type-badge type-${typeObj.name.toLowerCase()}`;
-        typesContainer.appendChild(typeElement);
-      });
-    }
+    showCard();
   }
 
-  function displayMessage(message, isError = false) {
+  function displayMessage(message) {
     messageContainer.textContent = message;
-    messageContainer.classList.toggle('message-error', isError);
+    messageContainer.style.display = 'block';
   }
 
   function clearMessage() {
-    messageContainer.textContent = '';
-    messageContainer.classList.remove('message-error');
+    messageContainer.style.display = 'none';
   }
 
-  function resetCard() {
-    document.getElementById('creature-name').textContent = '-';
-    document.getElementById('creature-id').textContent = '#-';
-    document.getElementById('weight').textContent = '-';
-    document.getElementById('height').textContent = '-';
-    document.getElementById('hp').textContent = '-';
-    document.getElementById('attack').textContent = '-';
-    document.getElementById('defense').textContent = '-';
-    document.getElementById('special-attack').textContent = '-';
-    document.getElementById('special-defense').textContent = '-';
-    document.getElementById('speed').textContent = '-';
-    document.getElementById('types').innerHTML = '';
-    document.getElementById('creature-image').style.display = 'none';
-    document.getElementById('image-placeholder').style.display = 'block';
+  function showCard() {
+    creatureCard.hidden = false;
+    setTimeout(() => {
+      creatureCard.classList.add('visible');
+    }, 10);
+  }
+
+  function hideCard() {
+    creatureCard.classList.remove('visible');
+    setTimeout(() => {
+      if (!creatureCard.classList.contains('visible')) {
+        creatureCard.hidden = true;
+      }
+    }, 500);
   }
 });
