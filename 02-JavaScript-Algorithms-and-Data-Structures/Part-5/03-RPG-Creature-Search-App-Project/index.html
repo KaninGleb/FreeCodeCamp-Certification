@@ -11,9 +11,11 @@
 <h1>Creature Database</h1>
 
 <div class="search-container">
-    <input type="text" id="search-input" placeholder="Enter creature name or ID..." required>
+    <input type="number" id="search-input" placeholder="Enter creature ID (1-20)..." min="1" max="20" required>
     <button id="search-button">Search</button>
 </div>
+
+<div id="message-container" class="message-container"></div>
 
 <div class="creature-card">
     <div class="creature-header">
@@ -21,7 +23,10 @@
         <span id="creature-id">#-</span>
     </div>
 
-    <div class="creature-image">Image Not Available</div>
+    <div class="creature-image-container">
+        <img id="creature-image" src="" alt="Creature image" style="display:none;">
+        <div id="image-placeholder">Image Not Available</div>
+    </div>
 
     <div class="creature-details">
         <div class="detail-item">
