@@ -1,79 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Creature Database</title>
 </head>
-
 <body>
-<h1>Creature Database</h1>
+<main class="container">
+    <h1>Creature Databas</h1>
 
-<div class="search-container">
-    <input type="number" id="search-input" placeholder="Enter creature ID (1-20)..." min="1" max="20" required>
-    <button id="search-button">Search</button>
-</div>
-
-<div id="message-container" class="message-container"></div>
-
-<div class="creature-card">
-    <div class="creature-header">
-        <h2 id="creature-name">-</h2>
-        <span id="creature-id">#-</span>
+    <div class="search-container">
+        <input type="number" id="search-input" placeholder="Enter creature ID (1-20)..." min="1" max="20" required>
+        <button id="search-button">Search</button>
     </div>
 
-    <div class="creature-image-container">
-        <img id="creature-image" src="" alt="Creature image" style="display:none;">
-        <div id="image-placeholder">Image Not Available</div>
-    </div>
+    <div id="message-container"></div>
 
-    <div class="creature-details">
-        <div class="detail-item">
-            <span class="detail-label">Height:</span>
-            <span class="detail-value" id="height">-</span>
+    <div class="creature-card" id="creature-card" hidden>
+        <div class="creature-main-info">
+            <div class="creature-header">
+                <h2 id="creature-name">-</h2>
+                <span id="creature-id">#-</span>
+            </div>
+                <div class="types-container" id="types"></div>
         </div>
-        <div class="detail-item">
-            <span class="detail-label">Weight:</span>
-            <span class="detail-value" id="weight">-</span>
-        </div>
-    </div>
 
-    <div class="types-container" id="types">
-        <!-- Types will be added here dynamically -->
-    </div>
+        <div class="creature-secondary-info">
+            <div class="special-ability-container" id="special-ability">
+                <h3 id="special-name"></h3>
+                <p id="special-description"></p>
+            </div>
 
-    <div class="stats-container">
-        <div class="stats-title">Base Stats</div>
-        <div class="stats-grid">
-            <div class="stat-item">
-                <div class="stat-label">HP</div>
-                <div class="stat-value" id="hp">-</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Attack</div>
-                <div class="stat-value" id="attack">-</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Defense</div>
-                <div class="stat-value" id="defense">-</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Sp. Attack</div>
-                <div class="stat-value" id="special-attack">-</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Sp. Defense</div>
-                <div class="stat-value" id="special-defense">-</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Speed</div>
-                <div class="stat-value" id="speed">-</div>
+            <div class="stats-container">
+                <h3>Base Stats</h3>
+                <div class="stats-grid">
+                    <div class="stat-item"><span>HP</span><b id="hp">-</b></div>
+                    <div class="stat-item"><span>Атака</span><b id="attack">-</b></div>
+                    <div class="stat-item"><span>Защита</span><b id="defense">-</b></div>
+                    <div class="stat-item"><span>Спец. Атака</span><b id="special-attack">-</b></div>
+                    <div class="stat-item"><span>Спец. Защита</span><b id="special-defense">-</b></div>
+                    <div class="stat-item"><span>Скорость</span><b id="speed">-</b></div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
+</main>
 <script src="scripts.js"></script>
 </body>
 </html>
