@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,46 +10,49 @@
     <link rel="stylesheet" href="styles.css">
     <title>Creature Database</title>
 </head>
+
 <body>
-<main class="container">
-    <h1>Creature Databas</h1>
+    <main class="container">
+        <h1>Creature Databas</h1>
 
-    <div class="search-container">
-        <input type="number" id="search-input" placeholder="Enter creature ID (1-20)..." min="1" max="20" required>
-        <button id="search-button">Search</button>
-    </div>
-
-    <div id="message-container"></div>
-
-    <div class="creature-card" id="creature-card" hidden>
-        <div class="creature-main-info">
-            <div class="creature-header">
-                <h2 id="creature-name">-</h2>
-                <span id="creature-id">#-</span>
-            </div>
-                <div class="types-container" id="types"></div>
+        <div class="search-container">
+            <input type="number" id="search-input" placeholder="Enter creature ID (1-20)..." min="1" max="20" required>
+            <button id="search-button">Search</button>
         </div>
 
-        <div class="creature-secondary-info">
-            <div class="special-ability-container" id="special-ability">
-                <h3 id="special-name"></h3>
-                <p id="special-description"></p>
+        <div id="message-container"></div>
+
+        <div class="creature-card" id="creature-card" hidden>
+            <div class="creature-main-info">
+                <div class="creature-header">
+                    <h2 id="creature-name">-</h2>
+                    <span id="creature-id">#-</span>
+                </div>
+                <div class="types-container" id="types"></div>
             </div>
 
-            <div class="stats-container">
-                <h3>Base Stats</h3>
-                <div class="stats-grid">
-                    <div class="stat-item"><span>HP</span><b id="hp">-</b></div>
-                    <div class="stat-item"><span>Атака</span><b id="attack">-</b></div>
-                    <div class="stat-item"><span>Защита</span><b id="defense">-</b></div>
-                    <div class="stat-item"><span>Спец. Атака</span><b id="special-attack">-</b></div>
-                    <div class="stat-item"><span>Спец. Защита</span><b id="special-defense">-</b></div>
-                    <div class="stat-item"><span>Скорость</span><b id="speed">-</b></div>
+            <div class="creature-secondary-info">
+                <div class="special-ability-container" id="special-ability">
+                    <h3 id="special-name"></h3>
+                    <p id="special-description"></p>
+                </div>
+
+                <div class="stats-container">
+                    <h3>Base Stats</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span>HP</span><b id="hp">-</b></div>
+                        <div class="stat-item"><span>Атака</span><b id="attack">-</b></div>
+                        <div class="stat-item"><span>Защита</span><b id="defense">-</b></div>
+                        <div class="stat-item"><span>Спец. Атака</span><b id="special-attack">-</b></div>
+                        <div class="stat-item"><span>Спец. Защита</span><b id="special-defense">-</b></div>
+                        <div class="stat-item"><span>Скорость</span><b id="speed">-</b></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
-<script src="scripts.js"></script>
+    </main>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
