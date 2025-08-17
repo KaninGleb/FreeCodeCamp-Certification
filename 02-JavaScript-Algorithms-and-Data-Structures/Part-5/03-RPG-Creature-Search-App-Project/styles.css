@@ -16,7 +16,7 @@ h1 {
 .search-container {
     display: flex;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #search-input {
@@ -40,6 +40,19 @@ h1 {
 
 #search-button:hover {
     background-color: #2980b9;
+}
+
+.message-container {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.message-error {
+    background-color: #e74c3c;
+    color: white;
 }
 
 .creature-card {
@@ -71,7 +84,7 @@ h1 {
     color: #7f8c8d;
 }
 
-.creature-image {
+.creature-image-container {
     width: 200px;
     height: 200px;
     background-color: #ecf0f1;
@@ -81,6 +94,13 @@ h1 {
     align-items: center;
     justify-content: center;
     color: #bdc3c7;
+    overflow: hidden;
+}
+
+#creature-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
 }
 
 .creature-details {
@@ -108,6 +128,8 @@ h1 {
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .type-badge {
@@ -119,17 +141,20 @@ h1 {
     font-size: 14px;
 }
 
-.type-fire {
-    background-color: #e74c3c;
-}
+.type-fire { background-color: #e74c3c; }
+.type-water { background-color: #3498db; }
+.type-rock { background-color: #d35400; }
+.type-electric { background-color: #f1c40f; }
+.type-grass { background-color: #2ecc71; }
+.type-ice { background-color: #1abc9c; }
+.type-ground { background-color: #e67e22; }
+.type-psychic { background-color: #9b59b6; }
+.type-ghost { background-color: #8e44ad; }
+.type-dragon { background-color: #c0392b; }
+.type-dark { background-color: #2c3e50; }
+.type-steel { background-color: #95a5a6; }
+.type-fairy { background-color: #fd79a8; }
 
-.type-water {
-    background-color: #3498db;
-}
-
-.type-rock {
-    background-color: #d35400;
-}
 
 .stats-container {
     margin-top: 20px;
@@ -139,6 +164,7 @@ h1 {
     font-weight: bold;
     margin-bottom: 10px;
     color: #2c3e50;
+    text-align: center;
 }
 
 .stats-grid {
