@@ -65,5 +65,4 @@ const calculate = () => {
   document.querySelector("#range").textContent = range;
   document.querySelector("#variance").textContent = variance;
   document.querySelector("#standardDeviation").textContent = standardDeviation;
-
 }
