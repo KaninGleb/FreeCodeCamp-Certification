@@ -46,10 +46,26 @@ const getStandardDeviation = (array) => {
   return standardDeviation;
 }
 
+const formatNumber = (num) => {
+  if (num === null) return "No mode";
+  return Number.isInteger(num) ? num : num.toFixed(4);
+}
+
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
+
+  if (!value.trim()) {
+    alert("Please enter some numbers");
+    return false;
+  }
+
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
+
+  if (numbers.length === 0) {
+    alert("Please enter valid numbers");
+    return false;
+  }
 
   const mean = getMean(numbers);
   const median = getMedian(numbers);
@@ -58,11 +74,19 @@ const calculate = () => {
   const variance = getVariance(numbers);
   const standardDeviation = getStandardDeviation(numbers);
 
+  document.querySelector("#mean").textContent = formatNumber(mean);
+  document.querySelector("#median").textContent = formatNumber(median);
+  document.querySelector("#mode").textContent = formatNumber(mode);
+  document.querySelector("#range").textContent = formatNumber(range);
+  document.querySelector("#variance").textContent = formatNumber(variance);
+  document.querySelector("#standardDeviation").textContent = formatNumber(standardDeviation);
 
-  document.querySelector("#mean").textContent = mean;
-  document.querySelector("#median").textContent = median;
-  document.querySelector("#mode").textContent = mode;
-  document.querySelector("#range").textContent = range;
-  document.querySelector("#variance").textContent = variance;
-  document.querySelector("#standardDeviation").textContent = standardDeviation;
+  document.querySelectorAll('.stat-card').forEach(card => {
+    card.style.animation = 'none';
+    setTimeout(() => {
+      card.style.animation = 'fadeIn 0.5s ease-out forwards';
+    }, 10);
+  });
+
+  return false;
 }
