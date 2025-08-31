@@ -123,6 +123,10 @@ Welcome to my repository dedicated to completing tasks on FreeCodeCamp and earni
 11. **Number Sorter** <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-3/02-Number-Sorter)
 
+12. **Statistics Calculator** <br/>
+   [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-3/03-Statistics-Calculator)
+
+
 
 25. **RPG Creature Search App Project** - $${\color{lightgreen}✨Certification \space project✨}$$ <br/>
    [View Project](https://kaningleb.github.io/FreeCodeCamp-Certification/02-JavaScript-Algorithms-and-Data-Structures/Part-5/03-RPG-Creature-Search-App-Project)
