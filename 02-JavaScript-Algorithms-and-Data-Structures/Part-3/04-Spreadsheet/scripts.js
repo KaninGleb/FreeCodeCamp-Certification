@@ -11,6 +11,11 @@ const median = nums => {
     : sorted[Math.ceil(middle)];
 }
 
+const spreadsheetFunctions = {
+  sum,
+  average,
+  median
+}
 
 const range = (start, end) => Array(end - start + 1).fill(start).map((element, index) => element + index);
 const charRange = (start, end) => range(start.charCodeAt(0), end.charCodeAt(0)).map(code => String.fromCharCode(code));
@@ -32,7 +37,14 @@ window.onload = () => {
       input.type = "text";
       input.id = letter + number;
       input.ariaLabel = letter + number;
+      input.onchange = update;
       container.appendChild(input);
     })
   })
+}
+
+const update = event => {
+  const element = event.target;
+  const value = element.value.replace(/\s/g, "");
+
 }
