@@ -29,7 +29,14 @@ const median = nums => {
 const spreadsheetFunctions = {
   sum,
   average,
-  median
+  median,
+  even: nums => nums.filter(isEven),
+  someeven: nums => nums.some(isEven),
+
+  firsttwo: nums => nums.slice(0, 2),
+  lasttwo: nums => nums.slice(-2),
+  has2: nums => nums.includes(2),
+  increment: nums => nums.map(num => num + 1),
 }
 
 const applyFunction = str => {
@@ -85,6 +92,6 @@ const update = event => {
   const element = event.target;
   const value = element.value.replace(/\s/g, "");
   if (!value.includes(element.id) && value.startsWith('=')) {
-    element.value = evalFormula(value.slice(1), document.getElementById("container").children);
+    element.value = evalFormula(value.slice(1), Array.from(document.getElementById("container").children));
   }
 }
